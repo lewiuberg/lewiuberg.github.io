@@ -3,9 +3,11 @@ main:
   - title: "About"
     url: /about/
   - title: "Posts"
-    url: /_pages/index.html
+    url: /posts/ # /_pages/index.html
   - title: "Portfolio"
     url: /portfolio/
+  - title: "Medium"
+    url: /medium/
   - title: "Tutorials"
     url: /tutorials/
   - title: "Hobbies"

@@ -6,7 +6,7 @@ header:
   teaser: assets/images/portfolio/mura/mura_01-th.png
 sidebar:
   - title: "Role"
-    image: /assets/images/lewi/apple-touch-icon.png
+    image: /assets/images/lewi/lewi-uberg-round.png
     image_alt: "logo"
     text: "Developer, Designer."
   - title: "Responsibilities"
@@ -41,10 +41,12 @@ The proposed CNN model is designed to accept N amount of 128x128 image matrices 
 
 ## Dataset
 
-The dataset used to train the CNN model is the publicly available Large Dataset for Abnormality Detection in Musculoskeletal Radiographs, widely known as MURA [(Rajpurkar2018)](https://arxiv.org/pdf/1712.06957.pdf). The MURA dataset wast the basis for a Deep Learning competition hosted by Stanford, which expected the participants to detect bone abnormalities. MURA is a dataset of musculoskeletal radiographs consisting of 14,863 studies collected from 12,173 patients, with 40,561 multi-view radiographic images, meaning that one patient can have multiple images used for diagnosis, and seven different categories elbow, finger, forearm, hand, humerus, shoulder, and wrist. Between 2001 and 2012, board-certified radiologists from the Stanford Hospital has manually labeled each study during clinical radiographic interpretation. The dataset images vary in aspect ration and resolution, which can be beneficial during neural network training. The dataset is split into training (11,184 patients, 13,457 studies, 36,808 images), validation (783 patients, 1,199 studies, 3,197 images), and test (206 patients, 207 studies, 556 images), and there is no overlap in patients between any of the sets. The test set is not available to the general public; therefore, in preparation for training the model, the training set is further split into a new train 80\% and a validation set 20\%, keeping the test set for evaluation after model training. The reasoning for this decision is to be able to present the models' generalization ability and accuracy. Figure \ref{fig:images} shows example images of a normal [figure 2](/assets/images/portfolio/mura/mura_02.png) and an abnormal figure [figure 3](/assets/images/portfolio/mura/mura_03.png) diagnosis.
+The dataset used to train the CNN model is the publicly available Large Dataset for Abnormality Detection in Musculoskeletal Radiographs, widely known as MURA [(Rajpurkar2018)](https://arxiv.org/pdf/1712.06957.pdf). The MURA dataset wast the basis for a Deep Learning competition hosted by Stanford, which expected the participants to detect bone abnormalities. MURA is a dataset of musculoskeletal radiographs consisting of 14,863 studies collected from 12,173 patients, with 40,561 multi-view radiographic images, meaning that one patient can have multiple images used for diagnosis, and seven different categories elbow, finger, forearm, hand, humerus, shoulder, and wrist. Between 2001 and 2012, board-certified radiologists from the Stanford Hospital has manually labeled each study during clinical radiographic interpretation. The dataset images vary in aspect ration and resolution, which can be beneficial during neural network training. The dataset is split into training (11,184 patients, 13,457 studies, 36,808 images), validation (783 patients, 1,199 studies, 3,197 images), and test (206 patients, 207 studies, 556 images), and there is no overlap in patients between any of the sets. The test set is not available to the general public; therefore, in preparation for training the model, the training set is further split into a new train 80% and a validation set 20%, keeping the test set for evaluation after model training. The reasoning for this decision is to be able to present the models' generalization ability and accuracy. Figure \ref{fig:images} shows example images of a normal [figure 2](/assets/images/portfolio/mura/mura_02.png) and an abnormal figure [figure 3](/assets/images/portfolio/mura/mura_03.png) diagnosis.
 
-<div style="text-align:center"><img src="/assets/images/portfolio/mura/mura_02.png" /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="/assets/images/portfolio/mura/mura_03.png" /></div>
-<center>Figure 2: Normal &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Figure 3: Abnormal</center>
+<p align="center">
+  <img src="/assets/images/portfolio/mura/mura_02.png" /> &nbsp;&nbsp; <img src="/assets/images/portfolio/mura/mura_03.png" /><br/>
+  <center>Figure 2: Normal &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Figure 3: Abnormal</center>
+</p>
 
 ## Experimental setup
 
@@ -54,8 +56,10 @@ For model development and training of the model, Google's open-source python lib
 
 Overfitting is a common problem in deep neural networks. To combat this problem, several measures can be taken. The first choice is to increase the amount of training data. If this is not possible, data augmentation like mirroring, cropping, rotating, or embossing can be performed on the available data to provide additional training scores. However, this method did not increase the accuracy of this model. In the experimental stage of model development batch normalization, as well as L1, and L2 regularization, were implemented without improving performance. Yet, regularization by adding dropout proved to be significant in decreasing overfitting. The next challenge was the model would seem to settle to local minima, and essentially stop training. To rectify this, the Nadam optimizer was implemented, which is the Adam optimizer with Nesterov momentum. Many decay rates were tested without bearing fruit, thereby returning to the original optimizer. The best result of the final model achieved an overall accuracy score of .70, and F1 score of .63, which is the harmonic mean of the precision (positive predictive value) and sensitivity (true positive rate). In this case, it is important to have a low number of false-negative (FN) classifications. The proposed model has a false-negative classification of 45.82\%, as shown in [figure 4](/assets/images/portfolio/mura/mura_04.png), making it too unreliable to go into production. The model is, however, capable of making the correct prediction of personal test image as shown in [figure 5](/assets/images/portfolio/mura/mura_05.png).
 
-<div style="text-align:center"><img src="/assets/images/portfolio/mura/mura_04.png" width="280" /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="/assets/images/portfolio/mura/mura_05.png" width="280" /></div>
-<center>Figure 4: Confusion Matrix &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Figure 5: Personal Testing Image</center>
+<p align="center">
+  <img src="/assets/images/portfolio/mura/mura_04-th.png" /> &nbsp;&nbsp; <img src="/assets/images/portfolio/mura/mura_05-th.png" /><br/>
+  <center>Figure 4: Confusion Matrix &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Figure 5: Personal Testing Image</center>
+</p>
 
 ## Conclusion
 

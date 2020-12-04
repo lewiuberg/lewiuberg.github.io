@@ -6,7 +6,7 @@ header:
   teaser: assets/images/portfolio/imputer_from_scratch/imputer_from_scratch-th.png
 sidebar:
   - title: "Role"
-    image: /assets/images/lewi/apple-touch-icon.png
+    image: /assets/images/lewi/lewi-uberg-round.png
     image_alt: "logo"
     text: "Developer, Designer."
   - title: "Responsibilities"

@@ -6,7 +6,7 @@ header:
   teaser: assets/images/portfolio/active_airport/active_airport_01-th.png
 sidebar:
   - title: "Role"
-    image: /assets/images/lewi/apple-touch-icon.png
+    image: /assets/images/lewi/lewi-uberg-round.png
     image_alt: "logo"
     text: "Developer, Designer."
   - title: "Responsibilities"

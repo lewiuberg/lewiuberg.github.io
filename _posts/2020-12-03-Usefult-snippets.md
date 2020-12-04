@@ -1,7 +1,7 @@
 ---
 title: "Useful snippets"
 categories:
-  - post
+  - Python
 tags:
   - matplotlib
   - plotly

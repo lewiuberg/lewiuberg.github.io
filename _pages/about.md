@@ -2,6 +2,7 @@
 permalink: /about/
 title: "About"
 excerpt: "About me"
+read_time: false
 layouts_gallery:
   - url: /assets/images/portfolio/imputer_from_scratch_01.png
     image_path: /assets/images/portfolio/imputer_from_scratch_01.png
@@ -9,11 +10,11 @@ layouts_gallery:
   - url: /assets/images/portfolio/active_airport_01.png
     image_path: /assets/images/portfolio/active_airport_01.png
     alt: "Active Airport"
-last_modified_at: 2020-12-03T15:23:23+01:00
+last_modified_at: 2020-12-04T15:23:23+01:00
 toc: true
 ---
 
-## Contact
+## Information
 
 ```python
 me = Person(
@@ -30,6 +31,30 @@ me = Person(
     email="lewi@uberg.me"
 )
 ```
+
+## Contact me
+<!-- modify this form HTML and place wherever you want your form -->
+<form
+  action="https://formspree.io/f/mgepljqa"
+  method="POST"
+>
+  <label>
+    Your name:
+    <input type="text" name="name">
+  </label>
+  <label>
+    Your email:
+    <input type="text" name="_replyto">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+
+  <!-- your other form fields go here -->
+
+  <button type="submit">Send</button>
+</form>
 
 ## Experience
 
@@ -153,3 +178,8 @@ Technical drawing and computer aided design.
 
 **Degree Name:** Electrical<br/>
 **Date:** 2000 – 2002<br/>
+
+## Skils
+
+{% include skillbars.html %}
+{% include skillbar.html %}

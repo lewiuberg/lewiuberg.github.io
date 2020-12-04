@@ -13,32 +13,55 @@ header:
   # <br />
   # <small><a href="https://github.com/mmistakes/minimal-mistakes/releases/tag/4.21.0">Latest release v4.21.0</a></small>
 
-
+title: Lewi Uberg
 excerpt: >
   Personal website, portfolio and blog.
 feature_row:
-  - image_path: /assets/images/home/home_01.png
+  - image_path: /assets/images/home/about.png
+    alt: "about"
+    title: "About"
+    excerpt: "Information about me."
+    url: "/about/"
+    btn_class: "btn--primary"
+    btn_label: "Learn more"
+  - image_path: /assets/images/home/posts.png
+    alt: "posts"
+    title: "Posts"
+    excerpt: "Blog posts."
+    url: "/posts/"
+    btn_class: "btn--primary"
+    btn_label: "Learn more"
+  - image_path: /assets/images/home/portfolio.png
     alt: "portfolio"
     title: "Portfolio"
-    excerpt: "Portfolio of some of my projects"
+    excerpt: "Portfolio of some of my projects."
     url: "/portfolio/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
-  - image_path: /assets/images/home/home_02.png
-    alt: "posts"
-    title: "Posts"
-    excerpt: "Blog posts"
-    url: "/_pages/"
+  - image_path: /assets/images/home/tutorials.png
+    alt: "tutorials"
+    title: "Tutorials"
+    excerpt: "A collection of my tutorials."
+    url: "/tutorials/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
-  - image_path: /assets/images/home/home_03.png
-    alt: "about"
-    title: "About"
-    excerpt: "Information about me"
-    url: "/about/"
+  - image_path: /assets/images/home/medium.png
+    alt: "medium"
+    title: "Medium"
+    excerpt: "A collection of Medium articles."
+    url: "/medium/"
+    btn_class: "btn--primary"
+    btn_label: "Learn more"
+  - image_path: /assets/images/home/hobbies.png
+    alt: "hobbies"
+    title: "Hobbies"
+    excerpt: "Hobbies I like to use my spare time on."
+    url: "/hobbies/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
   
 ---
 
 {% include feature_row %}
+
+Photo credit: **[Unsplash](https://unsplash.com)**
