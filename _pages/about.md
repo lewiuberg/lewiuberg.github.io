@@ -32,29 +32,13 @@ me = Person(
 )
 ```
 
-## Contact me
-<!-- modify this form HTML and place wherever you want your form -->
-<form
-  action="https://formspree.io/f/mgepljqa"
-  method="POST"
->
-  <label>
-    Your name:
-    <input type="text" name="name">
-  </label>
-  <label>
-    Your email:
-    <input type="text" name="_replyto">
-  </label>
-  <label>
-    Your message:
-    <textarea name="message"></textarea>
-  </label>
+## Language skills
 
-  <!-- your other form fields go here -->
+{% include language_skillbars.html %}
 
-  <button type="submit">Send</button>
-</form>
+## Tools skills
+
+{% include tools_skillbars.html %}
 
 ## Experience
 
@@ -179,7 +163,26 @@ Technical drawing and computer aided design.
 **Degree Name:** Electrical<br/>
 **Date:** 2000 – 2002<br/>
 
-## Skils
+## Contact me
+<!-- modify this form HTML and place wherever you want your form -->
+<form
+  action="https://formspree.io/f/mgepljqa"
+  method="POST"
+>
+  <label>
+    Your name:
+    <input type="text" name="name">
+  </label>
+  <label>
+    Your email:
+    <input type="text" name="_replyto">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
 
-{% include skillbars.html %}
-{% include skillbar.html %}
+  <!-- your other form fields go here -->
+
+  <button type="submit">Send</button>
+</form>

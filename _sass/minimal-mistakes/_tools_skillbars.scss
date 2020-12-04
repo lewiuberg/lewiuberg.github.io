@@ -55,20 +55,20 @@
   background: #183142;
   animation: animate 1s 1s cubic-bezier(1,0,0.5,1) forwards;
 }
-.bar .progress-line.python span{
-  width: 75%;
+.bar .progress-line.pandas span{
+  width: 80%;
 }
-.bar .progress-line.html span{
-  width: 90%;
+.bar .progress-line.keras span{
+  width: 40%;
 }
-.bar .progress-line.css span{
-  width: 60%;
+.bar .progress-line.R span{
+  width: 40%;
 }
-.bar .progress-line.jquery span{
-  width: 85%;
+.bar .progress-line.sqlite span{
+  width: 50%;
 }
 .bar .progress-line.mysql span{
-  width: 75%;
+  width: 50%;
 }
 .progress-line span::before{
   position: absolute;
@@ -102,19 +102,9 @@
     opacity: 1;
   }
 }
-.progress-line.python span::after{
-  content: "75%";
+.progress-line.pandas span::after{
+  content: "Advanced";
 }
-.progress-line.html span::after{
-  content: "90%";
+.progress-line.keras span::after{
+  content: "Beginner";
 }
-.progress-line.css span::after{
-  content: "60%";
-}
-.progress-line.jquery span::after{
-  content: "85%";
-}
-.progress-line.mysql span::after{
-  content: "75%";
-}
-
