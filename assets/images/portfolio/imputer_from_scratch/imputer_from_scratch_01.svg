@@ -1,0 +1,72 @@
+<svg contentScriptType="application/ecmascript" contentStyleType="text/css" height="511px" preserveAspectRatio="none" style="width:613px;height:511px;" version="1.1" viewBox="0 0 613 511" width="613px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify"><defs><filter height="300%" id="f1xhb0fpc7z9uw" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="224" x="197.5" y="16.708">Imputer Strategy Pattern</text><!--MD5=[ed6624c6556d5e7b1bd23032162d20b7]
+class Client--><rect fill="#FFFFFF" filter="url(#f1xhb0fpc7z9uw)" height="23.9688" id="Client" style="stroke: #000000; stroke-width: 1.5;" width="41" x="80.5" y="374.4531"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="35" x="83.5" y="390.5918">Client</text><!--MD5=[5087628324ccd0e7267e523d2c3d1e66]
+class Imputer--><rect fill="#FFFFFF" filter="url(#f1xhb0fpc7z9uw)" height="168.0156" id="Imputer" style="stroke: #000000; stroke-width: 1.5;" width="190" x="6" y="114.9531"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="48" x="77" y="131.0918">Imputer</text><line style="stroke: #000000; stroke-width: 1.5;" x1="7" x2="195" y1="138.9219" y2="138.9219"/><ellipse cx="17" cy="149.9219" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="164" x="26" y="153.1323">missing_values : str = &quot;nan&quot;</text><polygon fill="none" points="17,157.7266,21,161.7266,17,165.7266,13,161.7266" style="stroke: #B38D22; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="134" x="26" y="165.937">strategy : str = &quot;mean&quot;</text><polygon fill="none" points="17,170.5313,21,174.5313,17,178.5313,13,174.5313" style="stroke: #B38D22; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="78" x="26" y="178.7417">axis = int = 0</text><polygon fill="none" points="17,183.3359,21,187.3359,17,191.3359,13,187.3359" style="stroke: #B38D22; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="84" x="26" y="191.5464">from_item : int</text><polygon fill="none" points="17,196.1406,21,200.1406,17,204.1406,13,200.1406" style="stroke: #B38D22; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="68" x="26" y="204.3511">to_item : int</text><line style="stroke: #000000; stroke-width: 1.5;" x1="7" x2="195" y1="210.9453" y2="210.9453"/><ellipse cx="17" cy="221.9453" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="19" x="26" y="225.1558">fit()</text><ellipse cx="17" cy="234.75" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="65" x="26" y="237.9604">transform()</text><polygon fill="#FFFF44" points="17,242.5547,21,246.5547,17,250.5547,13,246.5547" style="stroke: #B38D22; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="68" x="26" y="250.7651">imputation()</text><rect fill="#F24D5C" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="14" y="257.3594"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="120" x="26" y="263.5698">strategy_prosessor()</text><rect fill="#F24D5C" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="14" y="270.1641"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="66" x="26" y="276.3745">transpose()</text><path d="M65.5,28.9531 L65.5,54.0859 A0,0 0 0 0 65.5,54.0859 L97,54.0859 L101,114.7791 L105,54.0859 L136.5,54.0859 A0,0 0 0 0 136.5,54.0859 L136.5,38.9531 L126.5,28.9531 L65.5,28.9531 A0,0 0 0 0 65.5,28.9531 " fill="#FBFB77" filter="url(#f1xhb0fpc7z9uw)" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M126.5,28.9531 L126.5,38.9531 L136.5,38.9531 L126.5,28.9531 " fill="#FBFB77" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="50" x="71.5" y="46.02">Context</text><!--MD5=[13edfd10280322c47224aec1cae3a9f3]
+class ImputerStrategy--><rect fill="#FFFFFF" filter="url(#f1xhb0fpc7z9uw)" height="66.7422" id="ImputerStrategy" style="stroke: #000000; stroke-width: 1.5;" width="107" x="287.5" y="165.4531"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="71" x="305.5" y="181.5918">«Interface»</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="101" x="290.5" y="195.5605">ImputerStrategy</text><line style="stroke: #000000; stroke-width: 1.5;" x1="288.5" x2="393.5" y1="203.3906" y2="203.3906"/><line style="stroke: #000000; stroke-width: 1.5;" x1="288.5" x2="393.5" y1="211.3906" y2="211.3906"/><polygon fill="#FFFF44" points="298.5,217.3906,302.5,221.3906,298.5,225.3906,294.5,221.3906" style="stroke: #B38D22; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="68" x="307.5" y="225.6011">imputation()</text><!--MD5=[1373a1e408c4feb1dadf4f02adda1d39]
+class ImputByMean--><rect fill="#FFFFFF" filter="url(#f1xhb0fpc7z9uw)" height="52.7734" id="ImputByMean" style="stroke: #000000; stroke-width: 1.5;" width="94" x="159" y="359.9531"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="83" x="164.5" y="376.0918">ImputByMean</text><line style="stroke: #000000; stroke-width: 1.5;" x1="160" x2="252" y1="383.9219" y2="383.9219"/><line style="stroke: #000000; stroke-width: 1.5;" x1="160" x2="252" y1="391.9219" y2="391.9219"/><polygon fill="#FFFF44" points="170,397.9219,174,401.9219,170,405.9219,166,401.9219" style="stroke: #B38D22; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="68" x="179" y="406.1323">imputation()</text><path d="M81,473.9531 L81,499.0859 A0,0 0 0 0 81,499.0859 L231,499.0859 A0,0 0 0 0 231,499.0859 L231,483.9531 L221,473.9531 L165.955,473.9531 L192.863,413.2014 L157.955,473.9531 L81,473.9531 A0,0 0 0 0 81,473.9531 " fill="#FBFB77" filter="url(#f1xhb0fpc7z9uw)" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M221,473.9531 L221,483.9531 L231,483.9531 L221,473.9531 " fill="#FBFB77" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="129" x="87" y="491.02">Concrete Strategy 1</text><!--MD5=[5ebd44d9de6eb136c67432c389dc183a]
+class ImputByMedian--><rect fill="#FFFFFF" filter="url(#f1xhb0fpc7z9uw)" height="52.7734" id="ImputByMedian" style="stroke: #000000; stroke-width: 1.5;" width="100" x="291" y="359.9531"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="94" x="294" y="376.0918">ImputByMedian</text><line style="stroke: #000000; stroke-width: 1.5;" x1="292" x2="390" y1="383.9219" y2="383.9219"/><line style="stroke: #000000; stroke-width: 1.5;" x1="292" x2="390" y1="391.9219" y2="391.9219"/><polygon fill="#FFFF44" points="302,397.9219,306,401.9219,302,405.9219,298,401.9219" style="stroke: #B38D22; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="68" x="311" y="406.1323">imputation()</text><path d="M266,473.9531 L266,499.0859 A0,0 0 0 0 266,499.0859 L416,499.0859 A0,0 0 0 0 416,499.0859 L416,483.9531 L406,473.9531 L345,473.9531 L341,413.2014 L337,473.9531 L266,473.9531 A0,0 0 0 0 266,473.9531 " fill="#FBFB77" filter="url(#f1xhb0fpc7z9uw)" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M406,473.9531 L406,483.9531 L416,483.9531 L406,473.9531 " fill="#FBFB77" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="129" x="272" y="491.02">Concrete Strategy 2</text><!--MD5=[71a42b3ac2fd6d3111205cd7ac3cf2d5]
+class ImputByMode--><rect fill="#FFFFFF" filter="url(#f1xhb0fpc7z9uw)" height="52.7734" id="ImputByMode" style="stroke: #000000; stroke-width: 1.5;" width="94" x="456" y="359.9531"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="83" x="461.5" y="376.0918">ImputByMode</text><line style="stroke: #000000; stroke-width: 1.5;" x1="457" x2="549" y1="383.9219" y2="383.9219"/><line style="stroke: #000000; stroke-width: 1.5;" x1="457" x2="549" y1="391.9219" y2="391.9219"/><polygon fill="#FFFF44" points="467,397.9219,471,401.9219,467,405.9219,463,401.9219" style="stroke: #B38D22; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="68" x="476" y="406.1323">imputation()</text><path d="M451,473.9531 L451,499.0859 A0,0 0 0 0 451,499.0859 L601,499.0859 A0,0 0 0 0 601,499.0859 L601,483.9531 L591,473.9531 L527.261,473.9531 L509.043,413.2014 L519.261,473.9531 L451,473.9531 A0,0 0 0 0 451,473.9531 " fill="#FBFB77" filter="url(#f1xhb0fpc7z9uw)" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M591,473.9531 L591,483.9531 L601,483.9531 L591,473.9531 " fill="#FBFB77" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="129" x="457" y="491.02">Concrete Strategy 3</text><!--MD5=[5b62c5ba55069126ba4d380ce020be0a]
+reverse link Imputer to Client--><path d="M101,288.2291 C101,322.3191 101,357.2181 101,374.4451 " fill="none" id="Imputer&lt;-Client" style="stroke: #808080; stroke-width: 1.0;"/><polygon fill="#808080" points="101,283.2071,97,292.2071,101,288.2071,105,292.2071,101,283.2071" style="stroke: #808080; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="59" x="102" y="326.02">Requests</text><!--MD5=[d58dac943458e7eea8f6a64ea2e6dc83]
+reverse link Imputer to ImputerStrategy--><path d="M209.397,198.9531 C236.461,198.9531 264.32,198.9531 287.398,198.9531 " fill="none" id="Imputer&lt;-ImputerStrategy" style="stroke: #808080; stroke-width: 1.0;"/><polygon fill="#808080" points="196.199,198.9531,202.199,202.9531,208.199,198.9531,202.199,194.9531,196.199,198.9531" style="stroke: #808080; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="55" x="214.25" y="192.02">Strategy</text><!--MD5=[f97f1d42228d2a8befd9be8c21c63580]
+reverse link ImputerStrategy to ImputByMean--><path d="M305.196,249.1501 C279.284,284.7551 245.31,331.4391 224.597,359.9001 " fill="none" id="ImputerStrategy&lt;-ImputByMean" style="stroke: #808080; stroke-width: 1.0;"/><polygon fill="none" points="299.747,244.7421,317.175,232.6901,311.067,252.9801,299.747,244.7421" style="stroke: #808080; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="51" x="259" y="326.02">Extends</text><!--MD5=[ae8ed19ac19806cd17bae350c611cc0f]
+reverse link ImputerStrategy to ImputByMedian--><path d="M341,253.0771 C341,288.1261 341,332.4741 341,359.9001 " fill="none" id="ImputerStrategy&lt;-ImputByMedian" style="stroke: #808080; stroke-width: 1.0;"/><polygon fill="none" points="334,252.6901,341,232.6901,348,252.6901,334,252.6901" style="stroke: #808080; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="51" x="342" y="326.02">Extends</text><!--MD5=[96ecf2b570c7aef61c0343793d57b862]
+reverse link ImputerStrategy to ImputByMode--><path d="M383.119,248.1821 C414.317,283.9051 455.602,331.1801 480.684,359.9001 " fill="none" id="ImputerStrategy&lt;-ImputByMode" style="stroke: #808080; stroke-width: 1.0;"/><polygon fill="none" points="377.473,252.3581,369.589,232.6901,388.018,243.1491,377.473,252.3581" style="stroke: #808080; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="51" x="452" y="326.02">Extends</text><!--MD5=[d1e73744b09324ecc3cd693684c25999]
+@startuml
+skinparam class {
+    BackgroundColor White
+    ArrowColor Gray
+    BorderColor Black
+}
+skinparam stereotypeCBackgroundColor Gray
+hide circle
+
+title Imputer Strategy Pattern
+
+class Client
+hide Client methods
+hide Client attributes
+
+class Imputer
+Imputer : +fit()
+Imputer : +transform()
+Imputer : #imputation()
+Imputer : -strategy_prosessor()
+Imputer : -transpose()
+Imputer : +missing_values : str = "nan"
+Imputer : #strategy : str = "mean"
+Imputer : #axis = int = 0
+Imputer : #from_item : int
+Imputer : #to_item : int
+note Top: Context
+
+class ImputerStrategy <<Interface>>
+ImputerStrategy : #imputation()
+
+class ImputByMean
+ImputByMean : #imputation()
+note Bottom: Concrete Strategy 1
+
+class ImputByMedian
+ImputByMedian : #imputation()
+note Bottom: Concrete Strategy 2
+
+class ImputByMode
+ImputByMode : #imputation()
+note Bottom: Concrete Strategy 3
+
+Imputer <- - Client : Requests
+Imputer *- ImputerStrategy : Strategy
+ImputerStrategy <|- - ImputByMean : Extends
+ImputerStrategy <|- - ImputByMedian : Extends
+ImputerStrategy <|- - ImputByMode : Extends
+@enduml
+
+PlantUML version 1.2019.13(Tue Dec 10 17:18:29 UTC 2019)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Java Version: 1.7.0_25-b15
+Operating System: Linux
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

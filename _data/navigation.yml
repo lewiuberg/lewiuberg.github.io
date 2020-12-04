@@ -1,0 +1,14 @@
+# main links
+main:
+  - title: "About"
+    url: /about/
+  - title: "Posts"
+    url: /_pages/index.html
+  - title: "Portfolio"
+    url: /portfolio/
+  - title: "Tutorials"
+    url: /tutorials/
+  - title: "Hobbies"
+    url: /hobbies/
+  - title: "Sitemap"
+    url: /sitemap/
