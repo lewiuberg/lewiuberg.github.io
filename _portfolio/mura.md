@@ -8,9 +8,9 @@ sidebar:
   - title: "Role"
     image: /assets/images/lewi/lewi-uberg-round.png
     image_alt: "logo"
-    text: "Developer, Designer."
+    text: "<i>Developer, Designer.</i>"
   - title: "Responsibilities"
-    text: "Everything from A to Z."
+    text: "<i>Everything from A to Z.</i>"
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "cog"

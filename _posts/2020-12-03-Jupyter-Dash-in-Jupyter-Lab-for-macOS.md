@@ -1,7 +1,10 @@
 ---
 title: "Jupyter Dash in Jupyter Lab for macOS"
 categories:
-  - post
+  - Python
+  - IDE
+  - Visualization
+  - Virtual Environment
 tags:
   - plotly
   - dash

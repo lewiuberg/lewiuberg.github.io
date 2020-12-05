@@ -1,6 +1,7 @@
 ---
-title: " "
+title: "Medium"
 layout: splash
+dark_title: true
 permalink: /medium/
 collection: medium
 hidden: true
@@ -24,5 +25,4 @@ feature_row:
     btn_class: "btn--primary"
     btn_label: "Read"
 ---
-
 {% include feature_row %}

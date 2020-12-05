@@ -284,6 +284,15 @@ collections:
 
 # Defaults
 defaults:
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      # read_time: true
+      # words_per_minute: 200
   # _posts
   - scope:
       path: ""
@@ -297,15 +306,6 @@ defaults:
       share: true
       related: true
       show_date: true
-  # _pages
-  - scope:
-      path: "_pages"
-      type: pages
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      words_per_minute: 200
   # _portfolio
   - scope:
       path: ""
@@ -315,7 +315,10 @@ defaults:
       author_profile: false
       read_time: true
       words_per_minute: 200
+      comments: true
       share: true
+      related: true
+      show_date: true
   # _tutorials
   - scope:
       path: ""
@@ -325,7 +328,10 @@ defaults:
       author_profile: false
       read_time: true
       words_per_minute: 200
+      comments: true
       share: true
+      related: true
+      show_date: true
   # _hobbies
   - scope:
       path: ""
@@ -335,4 +341,7 @@ defaults:
       author_profile: false
       read_time: true
       words_per_minute: 200
+      comments: true
       share: true
+      related: true
+      show_date: true
