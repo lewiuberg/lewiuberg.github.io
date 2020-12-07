@@ -6,7 +6,7 @@ title: "Useful snippets"
 excerpt: "Code snippets I find useful to have as a reference"
 toc: true
 toc_label: "Table of Contents"
-toc_icon: "cog"
+toc_icon: "file-alt"
 categories:
   - Data Science
   - Programming

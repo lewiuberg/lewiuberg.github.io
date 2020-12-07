@@ -13,7 +13,7 @@ sidebar:
     text: "Everything from A to Z."
 toc: true
 toc_label: "Table of Contents"
-toc_icon: "cog"
+toc_icon: "file-alt"
 ---
 
 I plan on making some tutorials when time allows

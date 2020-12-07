@@ -29,7 +29,7 @@ gallery:
     alt: "workshop5"
 toc: true
 toc_label: "Table of Contents"
-toc_icon: "cog"
+toc_icon: "file-alt"
 ---
 
 {% include gallery caption="Gallery of of my workshop." %}

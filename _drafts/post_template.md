@@ -10,7 +10,7 @@ tags:
   - add
 toc: true
 toc_label: "Table of Contents"
-toc_icon: "cog"
+toc_icon: "file-alt"
 ---
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-X5TVX1RNG8"></script>

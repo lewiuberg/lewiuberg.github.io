@@ -6,7 +6,7 @@ title: "Jupyter Dash in Jupyter Lab for macOS"
 excerpt: "How to install Jupyter Dash on macOS"
 toc: true
 toc_label: "Table of Contents"
-toc_icon: "cog"
+toc_icon: "file-alt"
 categories:
   - Data Science
   - Programming

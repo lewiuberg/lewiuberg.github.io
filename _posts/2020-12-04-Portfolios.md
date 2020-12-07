@@ -6,7 +6,7 @@ title: "Portfolios"
 excerpt: "Portfolios of other people"
 toc: true
 toc_label: "Table of Contents"
-toc_icon: "cog"
+toc_icon: "file-alt"
 categories:
   - Data Science
   - Misc
