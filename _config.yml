@@ -294,6 +294,7 @@ defaults:
       author_profile: true
       # read_time: true
       # words_per_minute: 200
+      update: false
   # _posts
   - scope:
       path: ""
@@ -307,6 +308,7 @@ defaults:
       share: true
       related: true
       show_date: true
+      update: false
   # _portfolio
   - scope:
       path: ""
@@ -320,6 +322,7 @@ defaults:
       share: true
       related: true
       show_date: true
+      update: false
   # _tutorials
   - scope:
       path: ""
@@ -333,6 +336,7 @@ defaults:
       share: true
       related: true
       show_date: true
+      update: false
   # _hobbies
   - scope:
       path: ""
@@ -346,3 +350,4 @@ defaults:
       share: true
       related: true
       show_date: true
+      update: false
