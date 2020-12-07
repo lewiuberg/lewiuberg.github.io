@@ -1,6 +1,6 @@
 ---
 published: true
-last_modified_at: 2020-12-04T15:23:23+01:00
+last_modified_at: 2020-12-05T15:23:23+01:00
 update: false
 title: "Active Airport"
 excerpt: "Dashboard for exploring Norwegian airport traffic."
