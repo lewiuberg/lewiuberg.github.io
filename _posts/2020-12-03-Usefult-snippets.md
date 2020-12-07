@@ -1,17 +1,61 @@
 ---
+published: true
+last_modified_at: 2020-12-06T15:23:23+01:00
+update: true
 title: "Useful snippets"
-categories:
-  - Python
-tags:
-  - matplotlib
-  - plotly
-  - decorators
-  - pandas
-  - comprehensions
+excerpt: "Code snippets I find useful to have as a reference"
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "cog"
+categories:
+  - Data Science
+  - Programming
+  - Software Engineering
+  - Data Collection
+  - Data Preprocessing
+  - Misc
+tags:
+  # - Data Science
+  - data science
+# -----------------------------------------------------------------------------
+  # - Programming
+  - function
+  # Python
+  - python
+  - comprehensions
+  - decorators
+# -----------------------------------------------------------------------------
+  # - Software Engineering
+  - algorithm
+# -----------------------------------------------------------------------------
+  # - Data Preprocessing
+  - missing data
+  - data cleaning
+  - feature engineering
+  # Tools
+  # python
+  - pandas
+  - geopy
+# -----------------------------------------------------------------------------
+  # - Data Visualization
+  # Tools
+  # python
+  - matplotlib
+  - plotly
+# -----------------------------------------------------------------------------
+  # - IDE
+  - vscode
+  - jupyter notebooks
 ---
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-X5TVX1RNG8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-X5TVX1RNG8');
+</script>
 
 Here are some snippets I like to have laying around for a rainy day :)
 

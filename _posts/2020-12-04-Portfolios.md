@@ -1,15 +1,33 @@
 ---
+published: true
+# last_modified_at: 2020-12-06T15:23:23+01:00
+update: false
 title: "Portfolios"
-categories:
-  - Data Science
-tags:
-  - portfolio
-  - website
-  - inspiration
+excerpt: "Portfolios of other people"
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "cog"
+categories:
+  - Data Science
+  - Misc
+tags:
+  # - Data Science
+  - data science
+# -----------------------------------------------------------------------------
+  # Misc
+  - others work
+  - inspiration
+  - portfolio
 ---
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-X5TVX1RNG8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-X5TVX1RNG8');
+</script>
 
 While researching how to build a data science portfolio, I came over some unique and inspirational pages I would like to share.
 

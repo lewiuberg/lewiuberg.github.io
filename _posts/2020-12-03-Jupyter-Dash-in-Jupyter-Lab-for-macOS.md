@@ -1,28 +1,48 @@
 ---
+published: true
+# last_modified_at: 2020-12-06T15:23:23+01:00
+update: false
 title: "Jupyter Dash in Jupyter Lab for macOS"
-categories:
-  - Python
-  - IDE
-  - Visualization
-  - Virtual Environment
-tags:
-  - plotly
-  - dash
-  - jupyter
-  - pyenv
+excerpt: "How to install Jupyter Dash on macOS"
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "cog"
+categories:
+  - Data Science
+  - Programming
+  - Data Visualization
+  - IDE
+tags:
+  # - Data Science
+  - data science
+# -----------------------------------------------------------------------------
+  # - Programming
+  # Python
+  - python
+  - pip
+  - pyenv
+# -----------------------------------------------------------------------------
+  # - Data Visualization
+  # Tools
+  # python
+  - plotly
+  - dash
+# -----------------------------------------------------------------------------
+  # - IDE
+  - jupyter notebooks
+# -----------------------------------------------------------------------------
+  # Misc
+  - others work
 ---
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-X5TVX1RNG8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-Sources:
-
-[Charming Data](https://drive.google.com/file/d/1ZRtQUie0y2k3dXz_MM8s29WQaSrM9bDn/view)
-
-[Xing Han Lu](https://medium.com/plotly/introducing-jupyterdash-811f1f57c02e)
-[Plotly](https://plotly.com/python/getting-started/#jupyterlab-support-python-35)
-
-[Real Python](https://realpython.com/intro-to-pyenv/#virtual-environments-and-pyenv)
+  gtag('config', 'G-X5TVX1RNG8');
+</script>
 
 ## Python Virtual Environment:
 
@@ -313,3 +333,12 @@ do
     fi
 done
 ```
+
+Sources:
+
+[Charming Data](https://drive.google.com/file/d/1ZRtQUie0y2k3dXz_MM8s29WQaSrM9bDn/view)
+
+[Xing Han Lu](https://medium.com/plotly/introducing-jupyterdash-811f1f57c02e)
+[Plotly](https://plotly.com/python/getting-started/#jupyterlab-support-python-35)
+
+[Real Python](https://realpython.com/intro-to-pyenv/#virtual-environments-and-pyenv)
