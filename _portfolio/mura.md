@@ -1,4 +1,7 @@
 ---
+published: true
+# last_modified_at: 2020-12-06T15:23:23+01:00
+update: false
 title: "MURA"
 excerpt: "Bone X-ray classification using deep learning."
 header:
@@ -14,7 +17,97 @@ sidebar:
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "cog"
+categories:
+  - Data Science
+  - Mathematics
+  - Statistics
+  - Programming
+  - Data Collection
+  - Data Preprocessing
+  - Machine Learning
+tags:
+  # - Data Science
+  - data science
+# -----------------------------------------------------------------------------
+  # - Mathematics
+  - probability
+  - numpy
+# -----------------------------------------------------------------------------
+  # - Statistics
+  - hypothesis testing
+  - inferential statistics
+  - normalize
+# -----------------------------------------------------------------------------
+  # - Programming
+  - function
+  # Python
+  - python
+  - pickler
+# -----------------------------------------------------------------------------
+  # - Software Engineering
+  - algorithm
+# -----------------------------------------------------------------------------
+  # - Data Collection
+  - dataset
+# -----------------------------------------------------------------------------
+  # - Data Preprocessing
+  - missing data
+  - data cleaning
+  - feature engineering
+  - feature selection
+  # Tools
+  # python
+  - pandas  
+# -----------------------------------------------------------------------------
+  # - Data Visualization
+  # Tools
+  # python
+  - matplotlib
+  - seaborn  
+# -----------------------------------------------------------------------------
+  # - Machine Learning
+  - overfitting
+# .............................................................................
+  # -- Supervised
+  - supervised learning
+  # !!! regression and classification share many !!!
+  # Classification types
+  - classification
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  # Tools
+  # python
+  - scikit-learn
+# .............................................................................
+  # -- Neural Network
+  - neural network
+  - deep learning
+  - cnn
+  # Activation function
+  - sigmoid
+  - softmax
+  - adam
+  - nadam
+  # Tools
+  # python
+  - plaidml
+  - tensorflow
+  - keras
+# -----------------------------------------------------------------------------
+  # - Soft Skills
+  - writing
+# -----------------------------------------------------------------------------
+  # - IDE
+  - jupyter notebooks
 ---
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-X5TVX1RNG8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-X5TVX1RNG8');
+</script>
 
 [View on GitHub](https://github.com/lewiuberg/MURA){: .btn .btn--primary}
 

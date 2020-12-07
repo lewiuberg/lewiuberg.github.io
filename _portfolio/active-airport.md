@@ -1,4 +1,7 @@
 ---
+published: true
+# last_modified_at: 2020-12-06T15:23:23+01:00
+update: false
 title: "Active Airport"
 excerpt: "Dashboard for exploring Norwegian airport traffic."
 header:
@@ -27,7 +30,78 @@ gallery:
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "cog"
+categories:
+  - Data Science
+  - Statistics
+  - Programming
+  - Software Engineering
+  - Data Collection
+  - Data Preprocessing
+  - Data Visualization
+
+tags:
+  # - Data Science
+  - data science
+# -----------------------------------------------------------------------------
+  # - Mathematics
+  - geometry
+  - linear
+  - logarithmic
+# -----------------------------------------------------------------------------
+  # - Statistics
+  - descriptive statistics
+  - sum
+  - mean
+# -----------------------------------------------------------------------------
+  # - Programming
+  - function
+  # Python
+  - python
+  - comprehensions
+# -----------------------------------------------------------------------------
+  # - Software Engineering
+  - algorithm
+  - web development
+  # Tools
+  # misc
+  - heroku
+# -----------------------------------------------------------------------------
+  # - Data Collection
+  - dataset
+# -----------------------------------------------------------------------------
+  # - Data Preprocessing
+  - data cleaning
+  - feature engineering
+  - feature selection
+  # Tools
+  # python
+  - pandas
+  - geopandas
+  - geopy
+# -----------------------------------------------------------------------------
+  # - Data Visualization
+  - exploratory data analysis
+  # Types
+  - comparison
+  # Tools
+  # python
+  - plotly
+  - dash
+# -----------------------------------------------------------------------------
+  # - Soft Skills
+  - creativity
+  - problem solving
+# -----------------------------------------------------------------------------
 ---
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-X5TVX1RNG8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-X5TVX1RNG8');
+</script>
 
 [View on GitHub](https://github.com/lewiuberg/Active-Airport){: .btn .btn--primary}
 [Live demo](https://active-airport.herokuapp.com){: .btn .btn--primary}
@@ -2638,4 +2712,5 @@ app.run_server(debug=True)
 ```
 
 ## Conclusion
-Airport data has been gathered from Statistics Nor- way, as well as being shaped in an appropriate man- ner for the selected task. Utilizing this data as its source, a dashboard has been designed, implemen- ted, and deployed. The dashboard is made up of 4 tabs, each with a different means to interact with the data.
+
+Airport data has been gathered from Statistics Norway, as well as being shaped in an appropriate manner for the selected task. Utilizing this data as its source, a dashboard has been designed, implemented, and deployed. The dashboard is made up of 4 tabs, each with a different means to interact with the data.

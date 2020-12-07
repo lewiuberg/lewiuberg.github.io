@@ -1,4 +1,7 @@
 ---
+published: true
+# last_modified_at: 2020-12-06T15:23:23+01:00
+update: false
 title: "Imputer from scratch"
 excerpt: "Imputer class in python from scratch."
 header:
@@ -25,7 +28,58 @@ sidebar:
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "cog"
+categories:
+  - Mathematics
+  - Statistics
+  - Programming
+  - Software Engineering
+  - Data Preprocessing
+  - Data Visualization
+
+tags:
+# -----------------------------------------------------------------------------
+  # - Mathematics
+  - matrix algebra
+# -----------------------------------------------------------------------------
+  # - Statistics
+  - descriptive statistics
+  - mean
+  - median
+  - mode
+# -----------------------------------------------------------------------------
+  # - Programming
+  - class
+  - method
+  # Python
+  - python
+# -----------------------------------------------------------------------------
+  # - Software Engineering
+  - algorithm
+  - software development best practices
+# -----------------------------------------------------------------------------
+  # - Data Preprocessing
+  - missing data
+  - data cleaning
+  - feature engineering
+# -----------------------------------------------------------------------------
+  # - Data Visualization
+  - exploratory data analysis  
+# -----------------------------------------------------------------------------
+  # - Soft Skills
+  - writing
+# -----------------------------------------------------------------------------
+  # - IDE
+  - jupyter notebooks
 ---
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-X5TVX1RNG8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-X5TVX1RNG8');
+</script>
 
 [View on GitHub](https://github.com/lewiuberg/Imputer-from-skratch){: .btn .btn--primary}
 
