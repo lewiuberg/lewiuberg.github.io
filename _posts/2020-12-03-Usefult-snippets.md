@@ -1,6 +1,6 @@
 ---
 published: true
-last_modified_at: 2020-12-06T15:23:23+01:00
+last_modified_at: 2020-12-05T15:23:23+01:00
 update: true
 title: "Useful snippets"
 excerpt: "Code snippets I find useful to have as a reference"
