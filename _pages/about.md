@@ -70,15 +70,15 @@ me = Person(
 
 ### Language skills
 
-{% include language_skillbars.html %}
+<!-- {% include language_skillbars.html %} -->
 
 ### Tools skills
 
-{% include tools_skillbars.html %}
+<!-- {% include tools_skillbars.html %} -->
 
 ### CAD
 
-{% include skillbars_cad.html %}
+<!-- {% include skillbars_cad.html %} -->
 
 ## Experience
 
