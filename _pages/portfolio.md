@@ -2,9 +2,9 @@
 title: Portfolio
 layout: collection
 permalink: /portfolio/
-classes: wide
 collection: portfolio
 entries_layout: grid
+classes: wide
 sort_by: date # date (default) title
 sort_order: forward # forward (default), reverse
 ---
