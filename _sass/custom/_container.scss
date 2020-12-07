@@ -1,0 +1,108 @@
+/* ==========================================================================
+   container TEXT BLOCKS
+   ========================================================================== */
+
+/**
+ *  Default Kramdown usage (no indents!):
+ *  <div class="container" markdown="1">
+ *  #### Headline for the container
+ *  Text for the container
+ *  </div>
+ */
+
+@mixin container($container-color) {
+  margin: 2em 0 !important;  /* override*/
+  padding: 1em;
+  color: $dark-gray;
+  font-family: $global-font-family;
+  font-size: $type-size-6 !important;
+  text-indent: initial; /* override*/
+  background-color: mix(#fff, $container-color, 90%);
+  // border-radius: $border-radius;
+  // box-shadow: 0 1px 1px rgba($container-color, 0.25);
+  background: #fff;
+  box-shadow: 5px 5px 20px rgba(0,0,0,0.2);
+  border-radius: 10px;
+
+  h4 {
+    margin-top: 0 !important; /* override*/
+    margin-bottom: 0.75em;
+    line-height: inherit;
+  }
+
+  @at-root .page__content #{&} h4 {
+    /* using at-root to override .page-content h4 font size*/
+    margin-bottom: 0;
+    font-size: 1em;
+  }
+
+  p {
+    &:last-child {
+      margin-bottom: 0 !important; /* override*/
+    }
+  }
+
+  h4 + p {
+    /* remove space above paragraphs that appear directly after container headline*/
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+  a {
+    color: $container-color;
+
+    &:hover {
+      color: mix(#000, $container-color, 40%);
+    }
+  }
+
+  code {
+    background-color: mix(#fff, $container-color, 95%)
+  }
+
+	pre code {
+		background-color: inherit;
+	}
+
+  ul {
+    &:last-child {
+      margin-bottom: 0; /* override*/
+    }
+  }
+}
+
+/* Default container */
+
+.container {
+  @include container($light-gray);
+}
+
+/* Primary container */
+
+.container--primary {
+  @include container($primary-color);
+}
+
+/* Info container */
+
+.container--info {
+  @include container($info-color);
+}
+
+/* Warning container */
+
+.container--warning {
+  @include container($warning-color);
+}
+
+/* Success container */
+
+.container--success {
+  @include container($success-color);
+}
+
+/* Danger container */
+
+.container--danger {
+  @include container($danger-color);
+}

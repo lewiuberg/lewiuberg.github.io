@@ -1,4 +1,7 @@
 ---
+# published: true
+# update: false
+# last_modified_at: 2020-01-01T00:00:00+01:00
 permalink: /about/
 title: "About"
 excerpt: "About me"
@@ -81,6 +84,7 @@ me = Person(
 
 ### Cefront Technology AS
 
+{: .container}
 **Title:** CAD Engineer & IT Manager<br/>
 ***Dates Employed:*** Sep 2013 – Sep 2018<br/>
 ***Employment Duration:*** 5 yrs 1 mo<br/>
