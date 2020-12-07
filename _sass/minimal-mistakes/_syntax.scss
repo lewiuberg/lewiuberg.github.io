@@ -11,7 +11,13 @@ figure.highlight {
   font-family: $monospace;
   font-size: $type-size-6;
   line-height: 1.8;
-  border-radius: $border-radius;
+  // border-radius: $border-radius;
+
+  // padding: 25px 30px;
+  // width: 600px;
+  // background: #fff;
+  box-shadow: 5px 5px 20px rgba(0,0,0,0.2);
+  border-radius: 10px;
 
   > pre,
   pre.highlight {
