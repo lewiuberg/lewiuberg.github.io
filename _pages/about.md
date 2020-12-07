@@ -3,14 +3,7 @@ permalink: /about/
 title: "About"
 excerpt: "About me"
 read_time: false
-layouts_gallery:
-  - url: /assets/images/portfolio/imputer_from_scratch_01.png
-    image_path: /assets/images/portfolio/imputer_from_scratch_01.png
-    alt: "Imputer from scratch"
-  - url: /assets/images/portfolio/active_airport_01.png
-    image_path: /assets/images/portfolio/active_airport_01.png
-    alt: "Active Airport"
-last_modified_at: 2020-12-04T15:23:23+01:00
+show_date: true
 toc: true
 ---
 <!-- Global site tag (gtag.js) - Google Analytics -->
