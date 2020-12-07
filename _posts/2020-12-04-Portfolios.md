@@ -37,7 +37,9 @@ Hannah is currently working as a data scientist. Previously she went to National
 
 Besides data science and data storytelling, she also likes contemporary art, which is apparent from her site.
 
-![image-center](/assets/images/posts/2020-12-04-Portfolios/1.png){: .align-center}<br/>
+{: .container}
+![image-center](/assets/images/posts/2020-12-04-Portfolios/1.png){: .align-center}
+
 [Visit website](https://www.hannahyan.com/index.html){: .btn .btn--primary .align-center}
 
 ## Donne Martin
@@ -46,19 +48,25 @@ Donne works as a Tech Lead at facebook and protects the privacy of 3 billion peo
 
 His website has some very useful links.
 
+{: .container}
 ![image-center](/assets/images/posts/2020-12-04-Portfolios/2.png){: .align-center}
+
 [Visit website](https://donnemartin.com){: .btn .btn--primary .align-center}
 
 ## Claudia Ten Hoppe
 
 Claudia works remotely as a freelance data analyst/scientist, and holds a Bachelor’s and Master’s degree in science (Business Analytics, VU University Amsterdam).
 
-![image-center](/assets/images/posts/2020-12-04-Portfolios/3.png){: .align-center}<br/>
+{: .container}
+![image-center](/assets/images/posts/2020-12-04-Portfolios/3.png){: .align-center}
+
 [Visit website](https://www.claudiatenhoope.com){: .btn .btn--primary .align-center}
 
 ## Julia Nikulski
 
 Julia learned to code with different online and offline courses, StackOverflow as well as trial and error. She has done a lot of online courses, and taught herself trough project work.
 
-![image-center](/assets/images/posts/2020-12-04-Portfolios/4.png){: .align-center}<br/>
+{: .container}
+![image-center](/assets/images/posts/2020-12-04-Portfolios/4.png){: .align-center}
+
 [Visit website](http://julianikulski.com/en/){: .btn .btn--primary .align-center}

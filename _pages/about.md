@@ -37,6 +37,11 @@ me = Person(
 )
 ```
 
+[Experience](/contact/){: .btn .btn--primary}
+[Education](/contact/){: .btn .btn--primary}
+[Skills](/skills/){: .btn .btn--primary}
+[Contact](/contact/){: .btn .btn--primary}
+
 ## Contact me
 <!-- modify this form HTML and place wherever you want your form -->
 <form
@@ -67,6 +72,9 @@ me = Person(
 76-100 = Expert -->
 
 ## Skills
+
+{: .notice--danger}
+**This section is under construction**
 
 ### Language skills
 
