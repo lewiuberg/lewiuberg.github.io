@@ -19,6 +19,10 @@ toc: true
   gtag('config', 'G-X5TVX1RNG8');
 </script>
 
+Hello!
+
+I will write a little bio here.
+
 ## Information
 
 ```python
@@ -73,7 +77,7 @@ me = Person(
 
 ## Skills
 
-{: .notice--danger}
+{: .notice--info}
 **This section is under construction**
 
 ### Language skills
@@ -158,6 +162,10 @@ Assembly and software preparation of notebook computers.
 <div>
 <b>Degree Name:</b> Bachelor of Applied Science - BASc, Data Science, 3.94/5 (top 10% in programme)<br/>
 <b>Date:</b> 2018 - 2020<br/><br/>
+</div>
+
+{: .container--secondary}
+<div>
 Year 1:<br/>
 • Problem Based Learning and Research Methodologies<br/>
 • Introduction to Information Security<br/>
@@ -167,14 +175,22 @@ Year 1:<br/>
 • Network Principles<br/>
 • Programming and Databases (SQL)<br/>
 • Studio project work (Facial recognition security system, using OpenCV and Raspberry Pi)<br/><br/>
+</div>
+
+{: .container--secondary}
+<div>
 Year 2:<br/>
 • Object Oriented Programming<br/>
-• Operating File Systems (Windows Server, Active Directory, Group Policy, <br/>PowerShell and several Linux distributions and shells, shell scripting)<br/>
+• Operating File Systems (Windows Server, Active Directory, Group Policy PowerShell and several Linux distributions and shells, shell scripting)<br/>
 • NoSQL Databases (Cassandra, MongoDB, Neo4j)<br/>
 • Statistical Analysis Tools and Techniquies<br/>
 • Professional Software Development<br/>
 • Algorithms and Data Structures (Python, Jupyter, Pandas)<br/>
 • Studio project work (personal budgeting application, AWS, MySQL, Azure, SQL server, Python and Django)<br/><br/>
+</div>
+
+{: .container--secondary}
+<div>
 Year 3:<br/>
 • Final Year Project (Bachelor thesis)<br/>
 • Big Data Analytics<br/>
