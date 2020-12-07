@@ -12,29 +12,27 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
-layout: splash
+minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+
 # Site Settings
 locale                   : "en-US"
-title                    : "Lewi Uberg"
+title                    : "Site Title"
 title_separator          : "-"
-subtitle                 : Data Scientist # site tagline that appears below site title in masthead
-name                     : &name "Lewi Uberg" # Used to assign a site author.
-description              : "Lewi Uberg Data Scientist"
-url                      : https://uberg.me # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+subtitle                 : # site tagline that appears below site title in masthead
+name                     : "Your Name"
+description              : "An amazing website."
+url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : lewiuberg/lewiuberg.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-#teaser                   : "assets/images/500x300.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "assets/images/favicon/icon96x96.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : *name # overrides the website title displayed in the masthead, use " " for no title
+repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
-header:
-  image: /assets/images/art/unsplash-image-7.jpg
 words_per_minute         : 200
 comments:
-  provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
+  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
-    shortname            : "uberg-me" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -53,7 +51,7 @@ reCaptcha:
   secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
-search                   : true # true, false (default)
+search                   : # true, false (default)
 search_full_content      : # true, false (default)
 search_provider          : # lunr (default), algolia, google
 algolia:
@@ -77,69 +75,70 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : assets/images/favicon/icon128x128.png # Open Graph/Twitter default site image
+og_image                 : # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
-    - https://www.facebook.com/TheLewi
-    - https://www.instagram.com/lewiuberg/
-    - https://www.linkedin.com/in/lewi-uberg-01010100/
-    - https://www.kaggle.com/lewiuberg
-    - https://github.com/lewiuberg
 
 # Analytics
 analytics:
-  provider               : google # false (default), "google", "google-universal", "google-gtag", "custom"
+  provider               : false # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id          : G-X5TVX1RNG8
+    tracking_id          :
     anonymize_ip         : # true, false (default)
 
 
 # Site Author
 author:
-  name             : "Lewi Uberg"
-  avatar           : "/assets/images/lewi/lewi-uberg.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I’m a husband, father of three boys, a former design engineer, and a final year data science student."
-  location         : "Arendal, Norway"
+  name             : "Your Name"
+  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "I am an **amazing** person."
+  location         : "Somewhere"
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:lewi@uberg.me"
+      # url: "mailto:your.name@email.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://uberg.me"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/lewi-uberg-01010100/"
+      # url: "https://your-website.com"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      # url: "https://twitter.com/"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/lewiuberg"
-    - label: "Kaggle"
-      icon: "fab fa-fw fa-kaggle"
-      url: "https://www.kaggle.com/lewiuberg"
-    - label: "Medium"
-      icon: "fab fa-fw fa-medium"
-      url: "https://lewiuberg.medium.com"
+      # url: "https://github.com/"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      # url: "https://instagram.com/"
 
 # Site Footer
 footer:
   links:
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/lewi-uberg-01010100/"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      # url:
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/lewiuberg"
-    - label: "Kaggle"
-      icon: "fab fa-fw fa-kaggle"
-      url: "https://www.kaggle.com/lewiuberg"
-    - label: "Medium"
-      icon: "fab fa-fw fa-medium"
-      url: "https://lewiuberg.medium.com"
+      # url:
+    - label: "GitLab"
+      icon: "fab fa-fw fa-gitlab"
+      # url:
+    - label: "Bitbucket"
+      icon: "fab fa-fw fa-bitbucket"
+      # url:
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      # url:
 
 
 # Reading Files
@@ -173,7 +172,6 @@ exclude:
   - tmp
   - /docs # ignore Minimal Mistakes /docs
   - /test # ignore Minimal Mistakes /test
-  - /original
 keep_files:
   - .git
   - .svn
@@ -210,8 +208,8 @@ sass:
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
-paginate_path: /_pages/page:num/
-timezone: NO # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+paginate_path: /page:num/
+timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins (previously gems:)
@@ -268,32 +266,8 @@ compress_html:
     envs: development
 
 
-# Collections
-collections:
-  posts:
-    output: true
-    permalink: /:collection/:path/
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
-  tutorials:
-    output: true
-    permalink: /:collection/:path/
-  hobbies:
-    output: true
-    permalink: /:collection/:path/
-
 # Defaults
 defaults:
-  # _pages
-  - scope:
-      path: "_pages"
-      type: pages
-    values:
-      layout: single
-      author_profile: true
-      # read_time: true
-      # words_per_minute: 200
   # _posts
   - scope:
       path: ""
@@ -302,47 +276,6 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      words_per_minute: 200
-      comments: true
+      comments: # true
       share: true
       related: true
-      show_date: true
-  # _portfolio
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: false
-      read_time: true
-      words_per_minute: 200
-      comments: true
-      share: true
-      related: true
-      show_date: true
-  # _tutorials
-  - scope:
-      path: ""
-      type: tutorials
-    values:
-      layout: single
-      author_profile: false
-      read_time: true
-      words_per_minute: 200
-      comments: true
-      share: true
-      related: true
-      show_date: true
-  # _hobbies
-  - scope:
-      path: ""
-      type: hobbies
-    values:
-      layout: single
-      author_profile: false
-      read_time: true
-      words_per_minute: 200
-      comments: true
-      share: true
-      related: true
-      show_date: true
