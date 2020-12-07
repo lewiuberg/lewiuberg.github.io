@@ -29,7 +29,7 @@ gallery:
     alt: "Table"
 toc: true
 toc_label: "Table of Contents"
-toc_icon: "cog"
+toc_icon: "file-alt"
 categories:
   - Data Science
   - Statistics
