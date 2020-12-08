@@ -2,12 +2,12 @@
 main:
   - title: "About"
     url: /about/
+  - title: "CV"
+    url: /cv/
   - title: "Posts"
     url: /posts/ # /_pages/index.html
   - title: "Portfolio"
     url: /portfolio/
-  - title: "Medium"
-    url: /medium/
   - title: "Tutorials"
     url: /tutorials/
   - title: "Hobbies"

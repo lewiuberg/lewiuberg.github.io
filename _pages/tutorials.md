@@ -5,6 +5,9 @@ permalink: /tutorials/
 collection: tutorials
 entries_layout: grid
 classes: wide
+header:
+  image: /assets/images/tutorials/tutorials.png
+  teaser: assets/images/tutorials/tutorials-th.png
 ---
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-X5TVX1RNG8"></script>
