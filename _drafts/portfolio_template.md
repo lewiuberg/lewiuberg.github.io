@@ -1,6 +1,6 @@
 ---
 published: false
-update: false
+# author: Lewi Lie Uberg
 # last_modified_at: 2020-01-01T00:00:00+01:00
 title: "Portfolio Template"
 excerpt: "What is it you are publishing?"

@@ -14,3 +14,21 @@ main:
     url: /hobbies/
   - title: "Sitemap"
     url: /sitemap/
+
+hobbies:
+  - title: "Woodworking"
+    children:
+      - title: "My workshop"
+        url: /my-workshop/
+      - title: "Furniture"
+        url: /
+      - title: "Tools"
+        url: /
+  - title: "Gardening"
+    children:
+      - title: "My garden"
+        url: /my-garden/
+      - title: "Food"
+        url: /
+      - title: "Projects"
+        url: /

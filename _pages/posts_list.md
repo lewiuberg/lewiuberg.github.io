@@ -1,16 +1,10 @@
 ---
-published: false
-# author: Lewi Lie Uberg
-# last_modified_at: 2020-01-01T00:00:00+01:00
-title: "Post Template"
-excerpt: "What is it you are publishing?"
-categories:
-  - add
-tags:
-  - add
-toc: true
-toc_label: "Table of Contents"
-toc_icon: "file-alt"
+title: Posts
+layout: home
+permalink: /list/
+collection: posts
+entries_layout: list
+classes: wide
 ---
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-X5TVX1RNG8"></script>
@@ -21,3 +15,8 @@ toc_icon: "file-alt"
 
   gtag('config', 'G-X5TVX1RNG8');
 </script>
+
+[View by Grid](/posts/){: .btn .btn--primary}
+[View by Category](/categories/){: .btn .btn--primary}
+[View by Tags](/tags/){: .btn .btn--primary}
+[View by Year](/year-archive/){: .btn .btn--primary}

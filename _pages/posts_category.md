@@ -13,3 +13,8 @@ author_profile: true
 
   gtag('config', 'G-X5TVX1RNG8');
 </script>
+
+[View by List](/list/){: .btn .btn--primary}
+[View by Grid](/posts/){: .btn .btn--primary}
+[View by Tags](/tags/){: .btn .btn--primary}
+[View by Year](/year-archive/){: .btn .btn--primary}

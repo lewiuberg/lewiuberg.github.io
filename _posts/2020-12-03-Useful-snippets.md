@@ -4,6 +4,9 @@ last_modified_at: 2020-12-05T15:23:23+01:00
 update: true
 title: "Useful snippets"
 excerpt: "Code snippets I find useful to have as a reference"
+header:
+#   image: /assets/images/posts/Useful-snippets/1.png
+  teaser: assets/images/posts/Useful-snippets/1-th.png
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "file-alt"
