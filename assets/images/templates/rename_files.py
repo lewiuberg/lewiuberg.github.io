@@ -14,14 +14,14 @@ def copy_rename(fsub, ftype, old_file_name, new_file_name):
 	new_dst_file_name = os.path.join(dst_dir, new_file_name + "." + ftype)
 	os.rename(dst_file, new_dst_file_name)
 
-def copy_rename_series(fsub, ftype, series):
+def copy_rename_series(fsub, start, ftype, series):
 	src_dir = os.getcwd()
 
 	files = [x for i,x in enumerate(os.listdir(src_dir)) if ftype in str(x)]
 	files = [x.strip("." + ftype) for x in files]
 
 	for count, filename in enumerate(files):
-		new_file_name = series + "_" + str(count+1)
+		new_file_name = series + "_" + str(count+int(start))
 		if filename != ".DS_store":
 			copy_rename(fsub, ftype, filename, new_file_name)
 
@@ -29,9 +29,9 @@ print()
 multiple = input("Do you want to rename one file? [y/n]: ")
 if multiple == "y":
 	print()
-	fsub = input("What is the new folder name?: ")
-	print()
 	ftype = input("What is the file type?: ")
+	print()
+	fsub = input("What is the new folder name?: ")
 	print()
 	old_file_name = input("what is the old filename?: ")
 	print()
@@ -40,13 +40,15 @@ if multiple == "y":
 	copy_rename(fsub, ftype, old_file_name, new_file_name)
 if multiple == "n":
 	print()
-	fsub = input("What is the new folder name?: ")
-	print()
 	ftype = input("What is the file type?: ")
+	print()
+	start = input("What is the starting range?: ")
+	print()
+	fsub = input("What is the new folder name?: ")
 	print()
 	series = input("What is the series name?: ")
 	print()
-	copy_rename_series(fsub, ftype, series)
+	copy_rename_series(fsub, start, ftype, series)
 
 print("[Done]") 
 

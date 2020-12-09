@@ -18,7 +18,7 @@ title: Lewi Uberg
 excerpt: >
   Personal website, portfolio and blog.
 feature_row:
-  - image_path: /assets/images/brains/600x400/brains_600x400_7.png
+  - image_path: /assets/images/brains/600x400/brains_600x400_15.png
     alt: "about"
     title: "About"
     excerpt: "Information about me."
@@ -39,14 +39,14 @@ feature_row:
     url: "/portfolio/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
-  - image_path: /assets/images/brains/600x400/brains_600x400_3.png
+  - image_path: /assets/images/brains/600x400/brains_600x400_17.png
     alt: "learn"
     title: "Learn"
     excerpt: "Learn with me"
     url: "/learn/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
-  - image_path: /assets/images/brains/600x400/brains_600x400_12.png
+  - image_path: /assets/images/brains/600x400/brains_600x400_16.png
     alt: "medium"
     title: "Medium"
     excerpt: "A collection of Medium articles."
@@ -73,5 +73,3 @@ feature_row:
 </script>
 
 {% include feature_row %}
-
-Photo credit: **[Unsplash](https://unsplash.com)**

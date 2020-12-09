@@ -29,7 +29,7 @@ logo                     : "assets/images/favicon/icon96x96.png" # path of logo 
 masthead_title           : *name # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 header:
-  image: /assets/images/art/unsplash-image-7.jpg
+  image: /assets/images/home/home_02.png
 words_per_minute         : 200
 comments:
   provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"

@@ -1,18 +1,18 @@
 # main links
 main:
-  - title: "About"
+  - title: <i class="fa fa-address-card"></i> About
     url: /about/
-  - title: "CV"
+  - title: <i class="fa fa-file"></i> CV
     url: /cv/
-  - title: "Posts"
+  - title: <i class="fa fa-pen"></i> Posts
     url: /posts/ # /_pages/index.html
-  - title: "Portfolio"
+  - title: <i class="fa fa-crown"></i> Portfolio
     url: /portfolio/
-  - title: "Learn"
+  - title: <i class="fa fa-code"></i> Learn
     url: /learn/
-  - title: "Hobbies"
+  - title: <i class="fa fa-tools"></i> Hobbies
     url: /hobbies/
-  - title: "Sitemap"
+  - title: <i class="fa fa-sitemap"></i> Sitemap
     url: /sitemap/
 
 hobbies:
