@@ -55,13 +55,56 @@
   background: #183142;
   animation: animate 1s 1s cubic-bezier(1,0,0.5,1) forwards;
 }
+
+.progress-line span::before{
+  position: absolute;
+  content: "";
+  top: -10px;
+  right: 0;
+  height: 0;
+  width: 0;
+  border: 7px solid transparent;
+  border-bottom-width: 0px;
+  border-right-width: 0px;
+  border-top-color: #000;
+  opacity: 0;
+  animation: showText2 0.5s 1.5s linear forwards;
+}
+.progress-line span::after{
+  position: absolute;
+  top: -28px;
+  right: 0;
+  font-weight: 500;
+  background: #000;
+  color: #fff;
+  padding: 1px 8px;
+  font-size: 12px;
+  border-radius: 3px;
+  opacity: 0;
+  animation: showText2 0.5s 1.5s linear forwards;
+}
+@keyframes showText2 {
+  100%{
+    opacity: 1;
+  }
+}
+
+
 // Languages
 .bar .progress-line.python span{
-  width: 80%;
+  width: 20%;
 }
+.progress-line.python span::after{
+  content: "Advanced";
+}
+
 .bar .progress-line.julia span{
   width: 40%;
 }
+.progress-line.julia span::after{
+  content: "Beginner";
+}
+
 .bar .progress-line.R span{
   width: 40%;
 }
@@ -100,45 +143,9 @@
 .bar .progress-line.ds span{
   width: 25%;
 }
-.progress-line span::before{
-  position: absolute;
-  content: "";
-  top: -10px;
-  right: 0;
-  height: 0;
-  width: 0;
-  border: 7px solid transparent;
-  border-bottom-width: 0px;
-  border-right-width: 0px;
-  border-top-color: #000;
-  opacity: 0;
-  animation: showText2 0.5s 1.5s linear forwards;
-}
-.progress-line span::after{
-  position: absolute;
-  top: -28px;
-  right: 0;
-  font-weight: 500;
-  background: #000;
-  color: #fff;
-  padding: 1px 8px;
-  font-size: 12px;
-  border-radius: 3px;
-  opacity: 0;
-  animation: showText2 0.5s 1.5s linear forwards;
-}
-@keyframes showText2 {
-  100%{
-    opacity: 1;
-  }
-}
 // Languages
-.progress-line.python span::after{
-  content: "Advanced";
-}
-.progress-line.julia span::after{
-  content: "Beginner";
-}
+
+
 .progress-line.R span::after{
   content: "Beginner";
 }

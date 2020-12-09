@@ -276,7 +276,7 @@ collections:
   portfolio:
     output: true
     permalink: /:collection/:path/
-  tutorials:
+  learn:
     output: true
     permalink: /:collection/:path/
   hobbies:
@@ -323,10 +323,10 @@ defaults:
       related: true
       show_date: true
       
-  # _tutorials
+  # _learn
   - scope:
       path: ""
-      type: tutorials
+      type: learn
     values:
       layout: single
       author_profile: false

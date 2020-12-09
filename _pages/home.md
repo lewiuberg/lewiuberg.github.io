@@ -3,9 +3,10 @@ layout: splash
 permalink: /
 hidden: true
 read_time: false
+dark_title: true
 header:
-  overlay_color: "#5e616c"
-  overlay_image: /assets/images/splash/splash-01.jpg
+  #overlay_color: "#ffffff"
+  overlay_image: /assets/images/home/home_01.png
   # actions:
   #   - label: "<i class='fas fa-download'></i> Install now"
   #     url: "/docs/quick-start-guide/"
@@ -17,42 +18,42 @@ title: Lewi Uberg
 excerpt: >
   Personal website, portfolio and blog.
 feature_row:
-  - image_path: /assets/images/home/about.png
+  - image_path: /assets/images/brains/600x400/brains_600x400_7.png
     alt: "about"
     title: "About"
     excerpt: "Information about me."
     url: "/about/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
-  - image_path: /assets/images/home/posts.png
+  - image_path: /assets/images/brains/600x400/brains_600x400_4.png
     alt: "posts"
     title: "Posts"
     excerpt: "Blog posts."
     url: "/posts/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
-  - image_path: /assets/images/home/portfolio.png
+  - image_path: /assets/images/brains/600x400/brains_600x400_5.png
     alt: "portfolio"
     title: "Portfolio"
     excerpt: "Portfolio of some of my projects."
     url: "/portfolio/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
-  - image_path: /assets/images/home/tutorials.png
-    alt: "tutorials"
-    title: "Tutorials"
-    excerpt: "A collection of my tutorials."
-    url: "/tutorials/"
+  - image_path: /assets/images/brains/600x400/brains_600x400_3.png
+    alt: "learn"
+    title: "Learn"
+    excerpt: "Learn with me"
+    url: "/learn/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
-  - image_path: /assets/images/home/medium.png
+  - image_path: /assets/images/brains/600x400/brains_600x400_12.png
     alt: "medium"
     title: "Medium"
     excerpt: "A collection of Medium articles."
     url: "/medium/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
-  - image_path: /assets/images/home/hobbies.png
+  - image_path: /assets/images/brains/600x400/brains_600x400_9.png
     alt: "hobbies"
     title: "Hobbies"
     excerpt: "Hobbies I like to use my spare time on."

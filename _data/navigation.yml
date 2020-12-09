@@ -8,8 +8,8 @@ main:
     url: /posts/ # /_pages/index.html
   - title: "Portfolio"
     url: /portfolio/
-  - title: "Tutorials"
-    url: /tutorials/
+  - title: "Learn"
+    url: /learn/
   - title: "Hobbies"
     url: /hobbies/
   - title: "Sitemap"
