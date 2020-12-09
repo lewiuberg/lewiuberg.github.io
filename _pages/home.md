@@ -6,7 +6,7 @@ read_time: false
 dark_title: true
 header:
   #overlay_color: "#ffffff"
-  overlay_image: /assets/images/home/home_01.png
+  overlay_image: /assets/images/home/home_03.png
   # actions:
   #   - label: "<i class='fas fa-download'></i> Install now"
   #     url: "/docs/quick-start-guide/"

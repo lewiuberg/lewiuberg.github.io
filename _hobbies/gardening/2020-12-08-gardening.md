@@ -5,8 +5,8 @@ author: Lewi Lie Uberg
 permalink: /my-garden/
 # last_modified_at: 2020-01-01T00:00:00+01:00
 header:
-  image: /assets/images/hobbies/my_garden/my_garden_01.png
-  teaser: assets/images/hobbies/my_garden/my_garden_01-th.png
+  image: /assets/images/hobbies/gardening/my_garden/my_garden_01.png
+  teaser: assets/images/hobbies/gardening/my_garden/my_garden_01-th.png
 sidebar:
   title: "Hobbies"
   nav: hobbies

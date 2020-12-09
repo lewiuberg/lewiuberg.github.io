@@ -329,7 +329,7 @@ defaults:
       type: learn
     values:
       layout: single
-      author_profile: false
+      author_profile: true
       read_time: true
       words_per_minute: 200
       comments: true

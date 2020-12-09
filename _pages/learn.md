@@ -1,12 +1,15 @@
 ---
 title: Learn
-layout: collection
+layout: single
 permalink: /learn/
 collection: learn
 entries_layout: grid
 classes: wide
+sidebar:
+  title: "Learn"
+  nav: learn
 header:
-  image: /assets/images/learn/learn-1200x500.png
+  image: /assets/images/learn/learn-1200x200.png
   teaser: assets/images/learn/learn-600x400.png
 ---
 <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -21,3 +24,5 @@ header:
 
 {: .notice--danger}
 **This section is under construction**
+
+[Python](/learn-python/){: .btn .btn--primary}

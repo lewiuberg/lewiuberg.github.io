@@ -10,11 +10,11 @@ sidebar:
   title: "Hobbies"
   nav: hobbies
 gallery:
-  - url: /assets/images/hobbies/my_workshop/my-workshop_01.png
-    image_path: assets/images/hobbies/my_workshop/my-workshop_01-th.png
+  - url: /assets/images/hobbies/woodworking/my_workshop/my-workshop_01.png
+    image_path: assets/images/hobbies/woodworking/my_workshop/my-workshop_01-th.png
     alt: "workshop1"
-  - url: /assets/images/hobbies/my_garden/my_garden_01.png
-    image_path: assets/images/hobbies/my_garden/my_garden_01-th.png
+  - url: /assets/images/hobbies/gardening/my_garden/my_garden_01.png
+    image_path: assets/images/hobbies/gardening/my_garden/my_garden_01-th.png
     alt: "garden1"
 ---
 <!-- Global site tag (gtag.js) - Google Analytics -->

@@ -32,3 +32,25 @@ hobbies:
         url: /
       - title: "Projects"
         url: /
+
+learn:
+  - title: "Learn"
+    children:
+      - title: "Python"
+        url: /learn-python/
+    
+learn-python:
+  - title: "Python"
+    children:
+      - title: "Import"
+        url: /python-import/
+      - title: "Setup"
+        url: /
+      - title: "Templates"
+        url: /
+      - title: "Misc"
+        url: /python-misc/
+      - title: "Pandas"
+        url: /
+      - title: "Comprehensions"
+        url: /python-comprehensions/
