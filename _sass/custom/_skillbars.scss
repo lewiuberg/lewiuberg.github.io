@@ -89,89 +89,247 @@
   }
 }
 
+// 20 = Novice
+// 35 = Beginner
+// 50 = Intermediate
+// 65 = Competent
+// 80 = Advanced 
+// 95 = Expert
 
 // Languages
-.bar .progress-line.python span{
-  width: 20%;
-}
 .progress-line.python span::after{
   content: "Advanced";
 }
-
-.bar .progress-line.julia span{
-  width: 40%;
-}
-.progress-line.julia span::after{
-  content: "Beginner";
-}
-
-.bar .progress-line.R span{
-  width: 40%;
-}
-.bar .progress-line.sqlite span{
-  width: 50%;
-}
-.bar .progress-line.mysql span{
-  width: 50%;
-}
-// Tools
-.bar .progress-line.pandas span{
+.bar .progress-line.python span{
   width: 80%;
 }
-.bar .progress-line.keras span{
-  width: 40%;
-}
-.bar .progress-line.R span{
-  width: 40%;
-}
-.bar .progress-line.sqlite span{
-  width: 50%;
-}
-.bar .progress-line.mysql span{
-  width: 50%;
-}
-// CAD
-.bar .progress-line.inventor span{
-  width: 95%;
-}
-.bar .progress-line.autocad span{
-  width: 95%;
-}
-.bar .progress-line.fusion span{
-  width: 50%;
-}
-.bar .progress-line.ds span{
-  width: 25%;
-}
-// Languages
 
-
-.progress-line.R span::after{
-  content: "Beginner";
-}
-.progress-line.sqlite span::after{
+.progress-line.sql span::after{
   content: "Intermediate";
 }
-.progress-line.mysql span::after{
+.bar .progress-line.sql span{
+  width: 50%;
+}
+
+.progress-line.nosql span::after{
   content: "Intermediate";
 }
-// Tools
+.bar .progress-line.nosql span{
+  width: 50%;
+}
+
+.progress-line.julia span::after{
+  content: "Novice";
+}
+.bar .progress-line.julia span{
+  width: 20%;
+}
+
+.progress-line.r span::after{
+  content: "Novice";
+}
+.bar .progress-line.r span{
+  width: 20%;
+}
+
+// 20 = Novice
+// 35 = Beginner
+// 50 = Intermediate
+// 65 = Competent
+// 80 = Advanced 
+// 95 = Expert
+
+// Python
 .progress-line.pandas span::after{
   content: "Advanced";
 }
+.bar .progress-line.pandas span{
+  width: 80%;
+}
+
+.progress-line.matplotlib span::after{
+  content: "Advanced";
+}
+.bar .progress-line.matplotlib span{
+  width: 80%;
+}
+
+.progress-line.seaborn span::after{
+  content: "Competent";
+}
+.bar .progress-line.seaborn span{
+  width: 65%;
+}
+
+.progress-line.plotly span::after{
+  content: "Competent";
+}
+.bar .progress-line.plotly span{
+  width: 65%;
+}
+
+.progress-line.dash span::after{
+  content: "Competent";
+}
+.bar .progress-line.dash span{
+  width: 65%;
+}
+
+.progress-line.scikit-learn span::after{
+  content: "Intermediate";
+}
+.bar .progress-line.scikit-learn span{
+  width: 50%;
+}
+
 .progress-line.keras span::after{
   content: "Beginner";
 }
+.bar .progress-line.keras span{
+  width: 25%;
+}
+
+// 20 = Novice
+// 35 = Beginner
+// 50 = Intermediate
+// 65 = Competent
+// 80 = Advanced 
+// 95 = Expert
+
+// SQL
+.progress-line.sqlite span::after{
+  content: "Intermediate";
+}
+.bar .progress-line.sqlite span{
+  width: 50%;
+}
+
+.progress-line.mysql span::after{
+  content: "Beginner";
+}
+.bar .progress-line.mysql span{
+  width: 35%;
+}
+
+// 20 = Novice
+// 35 = Beginner
+// 50 = Intermediate
+// 65 = Competent
+// 80 = Advanced 
+// 95 = Expert
+
+// NoSQL
+.progress-line.mongodb span::after{
+  content: "Intermediate";
+}
+.bar .progress-line.mongodb span{
+  width: 50%;
+}
+
+.progress-line.neo4j span::after{
+  content: "Beginner";
+}
+.bar .progress-line.neo4j span{
+  width: 35%;
+}
+
+.progress-line.cassandra span::after{
+  content: "Beginner";
+}
+.bar .progress-line.cassandra span{
+  width: 35%;
+}
+
+// 20 = Novice
+// 35 = Beginner
+// 50 = Intermediate
+// 65 = Competent
+// 80 = Advanced 
+// 95 = Expert
+
+// web development
+.progress-line.jekyll span::after{
+  content: "Beginner";
+}
+.bar .progress-line.jekyll span{
+  width: 35%;
+}
+
+.progress-line.html span::after{
+  content: "Novice";
+}
+.bar .progress-line.html span{
+  width: 20%;
+}
+
+.progress-line.css span::after{
+  content: "Novice";
+}
+.bar .progress-line.css span{
+  width: 20%;
+}
+
+.progress-line.javascript span::after{
+  content: "Novice";
+}
+.bar .progress-line.javascript span{
+  width: 20%;
+}
+
+// 20 = Novice
+// 35 = Beginner
+// 50 = Intermediate
+// 65 = Competent
+// 80 = Advanced 
+// 95 = Expert
+
+// Typesetting
+.progress-line.markdown span::after{
+  content: "Advanced";
+}
+.bar .progress-line.markdown span{
+  width: 80%;
+}
+
+.progress-line.latex span::after{
+  content: "Competent";
+}
+.bar .progress-line.latex span{
+  width: 65%;
+}
+
+// 20 = Novice
+// 35 = Beginner
+// 50 = Intermediate
+// 65 = Competent
+// 80 = Advanced 
+// 95 = Expert
+
 // CAD
 .progress-line.inventor span::after{
   content: "Expert";
 }
+.bar .progress-line.inventor span{
+  width: 95%;
+}
+
 .progress-line.autocad span::after{
   content: "Expert";
 }
+.bar .progress-line.autocad span{
+  width: 95%;
+}
+
 .progress-line.fusion span::after{
+  content: "Competent";
+}
+.bar .progress-line.fusion span{
+  width: 65%;
+}
+
+.progress-line.ds span::after{
   content: "Intermediate";
 }
-.progress-line.ds span::after{
-  content: "Beginner";
+.bar .progress-line.ds span{
+  width: 50%;
 }

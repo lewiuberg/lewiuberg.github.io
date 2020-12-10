@@ -2,7 +2,7 @@
 # published: true
 # last_modified_at: 2020-01-01T00:00:00+01:00
 permalink: /cv/
-title: "CV"
+title: "Curriculum vitae"
 excerpt: "My CV"
 read_time: false
 show_date: true
@@ -27,16 +27,29 @@ toc_icon: "file-alt"
 
 ## Skills
 
-{: .notice--danger}
-**This section is under construction**
-
-### Language skills
+### Language
 
 {% include skillbars_language.html %}
 
-### Tools skills
+### Python
 
-{% include skillbars_tools.html %}
+{% include skillbars_python.html %}
+
+### SQL
+
+{% include skillbars_sql.html %}
+
+### NoSQL
+
+{% include skillbars_nosql.html %}
+
+### Web Development
+
+{% include skillbars_webdev.html %}
+
+### Typesetting
+
+{% include skillbars_typesetting.html %}
 
 ### CAD
 

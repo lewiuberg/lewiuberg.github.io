@@ -42,7 +42,9 @@ feature_row:
   - image_path: /assets/images/brains/600x400/brains_600x400_17.png
     alt: "learn"
     title: "Learn"
-    excerpt: "Learn with me"
+    excerpt: >
+      Learn different subject related to programming or data science with me.
+      This will be a reference for myself, that I share with you."
     url: "/learn/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
