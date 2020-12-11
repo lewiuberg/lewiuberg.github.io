@@ -8,7 +8,7 @@ title: Matplotlib vs Plotly
 dark_title: false
 excerpt: >
     Graph created with Matplotlib vs embeded graph created with Plotly.
-permalink: /matplotlib-vs-Plotly/
+permalink: /matplotlib-vs-plotly/
 collection: posts
 canonical_url: "https://uberg.me/posts/matplotlib-vs-plotly"
 search: true
