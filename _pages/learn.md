@@ -6,8 +6,8 @@ title: Learn
 layout: single # collection
 permalink: /learn/
 collection: learn
-entries_layout: grid
-classes: wide
+entries_layout: list
+# classes: wide
 header:
   image: /assets/images/learn/learn-1200x200.png
   teaser: assets/images/learn/learn-600x400.png
@@ -60,7 +60,6 @@ feature_row:
   gtag('config', 'G-X5TVX1RNG8');
 </script>
 
-
 {: .notice--warning}
 <div class="alert alert-warning" role="alert">
   <strong>Warning!</strong> Only Python has published elements for now. The rest is for the future.
@@ -72,16 +71,36 @@ feature_row:
 
 ### StatQuest with Josh Starmer
 
+{: .container}
 <iframe width="560" height="315" src="https://www.youtube.com/embed/i4iUvjsGCMc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br/>
+<br/>
+[Visit website](https://statquest.org){: .btn .btn--primary .align-center}
+<br/>
 
 ### RichardOnData
 
+{: .container}
 <iframe width="560" height="315" src="https://www.youtube.com/embed/z2eOC4s615k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br/>
+<br/>
+[Visit reddit](https://www.reddit.com/user/RichardOnData/){: .btn .btn--primary .align-center}
+<br/>
 
 ### Ken Jee
 
+{: .container}
 <iframe width="560" height="315" src="https://www.youtube.com/embed/yukdXV9LR48" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br/>
+<br/>
+[Visit website](https://kennethjee.com){: .btn .btn--primary .align-center}
+<br/>
 
 ### Charming Data
 
+{: .container}
 <iframe width="560" height="315" src="https://www.youtube.com/embed/vqVwpL4bGKY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br/>
+<br/>
+[Visit website](https://www.charmdata.io){: .btn .btn--primary .align-center}
+<br/>

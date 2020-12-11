@@ -73,7 +73,8 @@
 .progress-line span::after{
   position: absolute;
   top: -28px;
-  right: 0;
+  right: -40px;
+  // left: 0;
   font-weight: 500;
   background: #000;
   color: #fff;
