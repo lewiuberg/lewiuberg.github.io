@@ -4,13 +4,13 @@ published: true #! <-- HERE <-- HERE <-- HERE <-- HERE <-- HERE <-- HERE
 show_date: true
 # last_modified_at: 2021-01-01T00:00:00+01:00
 
-title: Import
+title: Templates
 dark_title: false
 excerpt: >
-    "Information about imports in python, and predefined lists for different projects."
-permalink: /python-import/
+    "Boilerplate code and templates for python"
+permalink: /python-templates/
 collection: learn
-canonical_url: "https://uberg.me/learn/python/python-import"
+canonical_url: "https://uberg.me/learn/python/python-templates"
 search: true
 
 layout: single # (see _layout folder)
@@ -105,82 +105,23 @@ sidebar:
 
 {% include gallery caption="Gallery of my brain." %} -->{% endcomment %}
 
-## Ways of importing libraries
+## Boilerplate
 
-### Import library
+### Topic
 
-```python
-import numpy
+## Template
 
-numpy.array([1, 2, 3])
-```
-
-### Import library with alias
+### Decorator
 
 ```python
-import numpy as np
+import functools
 
-np.array([1, 2, 3])
-```
-
-### Import class from library
-
-```python
-from sklearn.impute import SimpleImputer
-
-SimpleImputer(args)
-```
-
-### Import class from library with alias
-
-```python
-from sklearn.impute import SimpleImputer as Imputer
-
-Imputer(args)
-```
-
-### Import everything from a library
-
-I do not (almost never) use this. I do not want namespace collisions.
-
-```python
-from numpy import *
-
-array([1, 2, 3])
-```
-
-## Predefined imports for projects
-
-### Standard
-
-```python
-import numpy as np
-import pandas as pd
-import matplotlib as mpl
-import matplotlib.pyplot as plt
-import seaborn as sns
-```
-
-### Plotly
-
-```python
-import numpy as np
-import pandas as pd
-import matplotlib as mpl
-import matplotlib.pyplot as plt
-import seaborn as sns
-import plotly.graph_objects as go
-import plotly.express as px
-import chart_studio.plotly as py
-import cufflinks as cf
-import dash_core_components as dcc
-import dash_html_components as html
-import country_converter as coco
-import geopy
-
-from jupyter_dash import JupyterDash
-from dash.dependencies import Input, Output
-from plotly.offline import init_notebook_mode, download_plotlyjs, plot, iplot
-from geopy.geocoders import Nominatim
-from geopy.extra.rate_limiter import RateLimiter
+def decorator(func):
+    @functools.wraps(func)
+    def wrapper_decorator(*args, **kwargs):
+        # Do something before
+        value = func(*args, **kwargs)
+        # Do something after
+        return value
+    return wrapper_decorator
 ```

@@ -3,6 +3,8 @@ layout: splash
 permalink: /
 hidden: true
 read_time: false
+# classes:
+#   - dark_background
 dark_title: true
 header:
   #overlay_color: "#ffffff"
@@ -44,11 +46,11 @@ feature_row:
     title: "Learn"
     excerpt: >
       Learn different subject related to programming or data science with me.
-      This will be a reference for myself, that I share with you."
+      This will be a reference for myself, that I share with you.
     url: "/learn/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
-  - image_path: /assets/images/brains/600x400/brains_600x400_16.png
+  - image_path: /assets/images/brains/600x400/brains_600x400_1.png
     alt: "medium"
     title: "Medium"
     excerpt: "A collection of Medium articles."

@@ -1,6 +1,6 @@
 ---
 published: true
-last_modified_at: 2020-12-05T15:23:23+01:00
+last_modified_at: 2020-12-11T15:00:23+01:00
 update: true
 title: "Useful snippets"
 excerpt: "Code snippets I find useful to have as a reference"
@@ -59,6 +59,11 @@ tags:
 
   gtag('config', 'G-X5TVX1RNG8');
 </script>
+
+{: .notice--warning}
+I will not update this post over time as planned. I have rather started a new collection to be the home for these snippets. Click below to navigate there.
+
+[Learn](/learn/){: .btn .btn--primary .btn--large}
 
 Here are some snippets I like to have laying around for a rainy day :)
 

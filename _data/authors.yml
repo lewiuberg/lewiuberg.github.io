@@ -5,21 +5,15 @@ Lewi Lie Uberg:
   location         : "Arendal, Norway"
   email            :
   links:
-    - label: "Email"
+    - label: "Private email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:lewi@uberg.me"
-    # - label: "Website"
-    #   icon: "fas fa-fw fa-link"
-    #   url: "https://uberg.me"
-    # - label: "LinkedIn"
-    #   icon: "fab fa-fw fa-linkedin"
-    #   url: "https://www.linkedin.com/in/lewi-uberg-01010100/"
-    # - label: "GitHub"
-    #   icon: "fab fa-fw fa-github"
-    #   url: "https://github.com/lewiuberg"
-    # - label: "Kaggle"
-    #   icon: "fab fa-fw fa-kaggle"
-    #   url: "https://www.kaggle.com/lewiuberg"
-    # - label: "Medium"
-    #   icon: "fab fa-fw fa-medium"
-    #   url: "https://lewiuberg.medium.com"
+      url: "mailto:lewiuberg@gmail.com"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      url: https://www.facebook.com/TheLewi
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram-square"
+      url: https://www.instagram.com/lewiuberg/
+    - label: "Pinterest"
+      icon: "fab fa-fw fa-pinterest-square"
+      url: https://pinterest.com/lewiuberg/

@@ -8,50 +8,40 @@ main:
     url: /posts/ # /_pages/index.html
   - title: <i class="fa fa-crown"></i> Portfolio
     url: /portfolio/
-  - title: <i class="fa fa-code"></i> Learn
+  - title: <i class="fa fa-brain"></i> Learn
     url: /learn/
   - title: <i class="fa fa-tools"></i> Hobbies
     url: /hobbies/
   - title: <i class="fa fa-sitemap"></i> Sitemap
     url: /sitemap/
-
-hobbies:
-  - title: "Woodworking"
-    children:
-      - title: "My workshop"
-        url: /my-workshop/
-      - title: "Furniture"
-        url: /
-      - title: "Tools"
-        url: /
-  - title: "Gardening"
-    children:
-      - title: "My garden"
-        url: /my-garden/
-      - title: "Food"
-        url: /
-      - title: "Projects"
-        url: /
     
 learn:
-  - title: "Python"
+  - title: <i class="fa fa-code"></i> Python
     children:
       - title: "Import"
         url: /python-import/
       - title: "Setup"
-        url: /
+        url: /python-setup/
       - title: "Templates"
-        url: /
-      - title: "Pandas"
-        url: /
+        url: /python-templates/
       - title: "Comprehensions"
         url: /python-comprehensions/
       - title: "Misc"
         url: /python-misc/
-  - title: "LaTeX"
+      - title: "Pandas"
+        url: /python-pandas/
+  - title: <i class="fas fa-chart-bar"></i> Statistics
     children:
       - title: "Template"
-        url: /
+        url: /learn-statistics/
+  - title: <i class="fas fa-calculator"></i> Mathematics
+    children:
+      - title: "Template"
+        url: /learn-mathematics/
+  - title: <i class="fas fa-square-root-alt"></i> LaTeX
+    children:
+      - title: "Template"
+        url: /learn-latex/
 
 # learn-python:
 #   - title: "Import"
@@ -72,3 +62,21 @@ learn:
 #     children:
 #       - title: "Template"
 #         url: /
+
+hobbies:
+  - title: "Woodworking"
+    children:
+      - title: "My workshop"
+        url: /my-workshop/
+      - title: "Furniture"
+        url: /
+      - title: "Tools"
+        url: /
+  - title: "Gardening"
+    children:
+      - title: "My garden"
+        url: /my-garden/
+      - title: "Food"
+        url: /
+      - title: "Projects"
+        url: /
