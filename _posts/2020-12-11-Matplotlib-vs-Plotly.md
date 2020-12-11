@@ -10,7 +10,7 @@ excerpt: >
     Graph created with Matplotlib vs embeded graph created with Plotly.
 permalink: /matplotlib-vs-Plotly/
 collection: posts
-canonical_url: "https://uberg.me/posts/matplotlib-vs-Plotly"
+canonical_url: "https://uberg.me/posts/matplotlib-vs-plotly"
 search: true
 
 layout: single # (see _layout folder)
