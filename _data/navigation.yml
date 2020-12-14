@@ -19,17 +19,25 @@ learn:
   - title: <i class="fa fa-code"></i> Python
     children:
       - title: "Import"
-        url: /python-import/
+        url: /learn-python-import/
       - title: "Setup"
-        url: /python-setup/
+        url: /learn-python-setup/
       - title: "Templates"
-        url: /python-templates/
+        url: /learn-python-templates/
       - title: "Comprehensions"
-        url: /python-comprehensions/
+        url: /learn-python-comprehensions/
       - title: "Misc"
-        url: /python-misc/
+        url: /learn-python-misc/
       - title: "Pandas"
-        url: /python-pandas/
+        url: /learn-python-pandas/
+  - title: <i class="fas fa-chart-bar"></i> SQL
+    children:
+      - title: "Template"
+        url: /learn-sql/
+  - title: <i class="fas fa-chart-bar"></i> NoSQL
+    children:
+      - title: "Template"
+        url: /learn-nosql/
   - title: <i class="fas fa-chart-bar"></i> Statistics
     children:
       - title: "Template"
