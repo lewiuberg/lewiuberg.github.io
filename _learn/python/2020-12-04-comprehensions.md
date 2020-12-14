@@ -8,9 +8,9 @@ title: Comprehensions
 dark_title: false
 excerpt: >
     "Python comprehensions"
-permalink: /python-comprehensions/
+permalink: /learn-python-comprehensions/
 collection: learn
-canonical_url: "https://uberg.me/learn/python/python-comprehensions"
+canonical_url: "https://uberg.me/learn/python/comprehensions"
 search: true
 
 layout: single # (see _layout folder)

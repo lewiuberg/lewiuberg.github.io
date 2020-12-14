@@ -8,9 +8,9 @@ title: Templates
 dark_title: false
 excerpt: >
     "Boilerplate code and templates for python"
-permalink: /python-templates/
+permalink: /learn-python-templates/
 collection: learn
-canonical_url: "https://uberg.me/learn/python/python-templates"
+canonical_url: "https://uberg.me/learn/python/templates"
 search: true
 
 layout: single # (see _layout folder)

@@ -22,15 +22,31 @@ feature_row:
     alt: "learn-python"
     #title: "Python"
     #excerpt: "Achive"
-    url: "/python-import/"
+    url: "/learn-python-import/"
     btn_class: "btn--primary"
     btn_label: "Python"
 
-  - image_path: /assets/images/brains/600x400/brains_600x400_10.png
+  - image_path: /assets/images/brains/600x400/brains_600x400_20.png
+    alt: "learn-sql"
+    #title: "Python"
+    #excerpt: "Achive"
+    url: "/learn-sql-FIRST_ARTICLE/"
+    btn_class: "btn--primary"
+    btn_label: "SQL"
+
+  - image_path: /assets/images/brains/600x400/brains_600x400_19.png
+    alt: "learn-nosql"
+    #title: "Python"
+    #excerpt: "Achive"
+    url: "/learn-nosql-FIRST_ARTICLE/"
+    btn_class: "btn--primary"
+    btn_label: "NoSQL"
+
+  - image_path: /assets/images/brains/600x400/brains_600x400_21.png
     alt: "learn-statistics"
     #title: "Python"
     #excerpt: "Achive"
-    url: "/learn-statistics/"
+    url: "/learn-statistics-FIRST_ARTICLE/"
     btn_class: "btn--primary"
     btn_label: "Statistics"
 
@@ -38,15 +54,15 @@ feature_row:
     alt: "learn-mathematics"
     #title: "Python"
     #excerpt: "Achive"
-    url: "/learn-mathematics/"
+    url: "/learn-mathematics-FIRST_ARTICLE/"
     btn_class: "btn--primary"
     btn_label: "Mathematics"
 
-  - image_path: /assets/images/brains/600x400/brains_600x400_12.png
+  - image_path: /assets/images/brains/600x400/brains_600x400_22.png
     alt: "learn-latex"
     #title: "Python"
     #excerpt: "Achive"
-    url: "/learn-latex/"
+    url: "/learn-latex-FIRST_ARTICLE/"
     btn_class: "btn--primary"
     btn_label: "LaTeX"
 ---
