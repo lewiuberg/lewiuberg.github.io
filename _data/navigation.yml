@@ -30,11 +30,11 @@ learn:
         url: /learn-python-misc/
       - title: "Pandas"
         url: /learn-python-pandas/
-  - title: <i class="fas fa-chart-bar"></i> SQL
+  - title: <i class="fas fa-database"></i> SQL
     children:
       - title: "Template"
         url: /learn-sql/
-  - title: <i class="fas fa-chart-bar"></i> NoSQL
+  - title: <i class="fas fa-project-diagram"></i> NoSQL
     children:
       - title: "Template"
         url: /learn-nosql/
