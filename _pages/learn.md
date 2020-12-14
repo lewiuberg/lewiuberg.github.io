@@ -7,7 +7,7 @@ layout: single # collection
 permalink: /learn/
 collection: learn
 entries_layout: list
-# classes: wide
+classes: wide
 header:
   image: /assets/images/learn/learn-1200x200.png
   teaser: assets/images/learn/learn-600x400.png
