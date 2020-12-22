@@ -31,7 +31,7 @@ header:
   overlay_filter: 0.3 # same as adding an opacity of 0.5 to a black background
   # overlay_filter: rgba(255, 0, 0, 0.5)
   actions:
-    - label: "Download dataset"
+    - label: "Download notebook"
       url: "/assets/notebooks/A visual representation of named colors.ipynb"
     # - label: "Learn More"
     #   url: "https://pixabay.com"
