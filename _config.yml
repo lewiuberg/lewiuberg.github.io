@@ -12,77 +12,77 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin: "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 layout: splash
 # Site Settings
-locale                   : "en-US"
-title                    : "Lewi Uberg"
-title_separator          : "-"
-subtitle                 : Data Scientist # site tagline that appears below site title in masthead
-name                     : &name "Lewi Uberg" # Used to assign a site author.
-description              : "Lewi Uberg Data Scientist"
-url                      : https://uberg.me # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : lewiuberg/lewiuberg.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : "assets/images/favicon/icon512x512.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "assets/images/favicon/icon96x96.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : *name # overrides the website title displayed in the masthead, use " " for no title
+locale: "en-US"
+title: "Lewi Uberg"
+title_separator: "-"
+subtitle: Data Scientist # site tagline that appears below site title in masthead
+name: &name "Lewi Uberg" # Used to assign a site author.
+description: "Lewi Uberg Data Scientist"
+url: https://uberg.me # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl: # the subpath of your site, e.g. "/blog"
+repository: lewiuberg/lewiuberg.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+teaser: "assets/images/favicon/icon512x512.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+logo: "assets/images/favicon/icon96x96.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+masthead_title: *name # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 header:
   image: /assets/images/home/home_02.png
-words_per_minute         : 200
+words_per_minute: 200
 comments:
-  provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
+  provider: "disqus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
-    shortname            : "uberg-me" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname: "uberg-me" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
-    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
+    server: # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
     # https://developers.facebook.com/docs/plugins/comments
-    appid                :
-    num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
+    appid:
+    num_posts: # 5 (default)
+    colorscheme: # "light" (default), "dark"
   utterances:
-    theme                : # "github-light" (default), "github-dark"
-    issue_term           : # "pathname" (default)
+    theme: # "github-light" (default), "github-dark"
+    issue_term: # "pathname" (default)
   staticman:
-    branch               : # "master"
-    endpoint             : # "https://{your Staticman v3 API}/v3/entry/github/"
+    branch: # "master"
+    endpoint: # "https://{your Staticman v3 API}/v3/entry/github/"
 reCaptcha:
-  siteKey                :
-  secret                 :
+  siteKey:
+  secret:
 atom_feed:
-  path                   : # blank (default) uses feed.xml
-search                   : true # true, false (default)
-search_full_content      : # true, false (default)
-search_provider          : # lunr (default), algolia, google
+  path: # blank (default) uses feed.xml
+search: true # true, false (default)
+search_full_content: # true, false (default)
+search_provider: # lunr (default), algolia, google
 algolia:
-  application_id         : # YOUR_APPLICATION_ID
-  index_name             : # YOUR_INDEX_NAME
-  search_only_api_key    : # YOUR_SEARCH_ONLY_API_KEY
-  powered_by             : # true (default), false
+  application_id: # YOUR_APPLICATION_ID
+  index_name: # YOUR_INDEX_NAME
+  search_only_api_key: # YOUR_SEARCH_ONLY_API_KEY
+  powered_by: # true (default), false
 google:
-  search_engine_id       : 1dabb4ac1b7763dbb # YOUR_SEARCH_ENGINE_ID
-  instant_search         : # false (default), true
+  search_engine_id: 1dabb4ac1b7763dbb # YOUR_SEARCH_ENGINE_ID
+  instant_search: # false (default), true
 # SEO Related
-google_site_verification :
-bing_site_verification   :
-yandex_site_verification :
-naver_site_verification  :
+google_site_verification:
+bing_site_verification:
+yandex_site_verification:
+naver_site_verification:
 
 # Social Sharing
 twitter:
-  username               :
-facebook                 :
-  username               :
-  app_id                 :
-  publisher              :
-og_image                 : assets/images/favicon/icon128x128.png # Open Graph/Twitter default site image
+  username:
+facebook:
+  username:
+  app_id:
+  publisher:
+og_image: assets/images/favicon/icon128x128.png # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
+  type: # Person or Organization (defaults to Person)
+  name: # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
     - https://www.facebook.com/TheLewi
     - https://www.instagram.com/lewiuberg/
@@ -92,19 +92,18 @@ social:
 
 # Analytics
 analytics:
-  provider               : google # false (default), "google", "google-universal", "google-gtag", "custom"
+  provider: google # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id          : G-X5TVX1RNG8
-    anonymize_ip         : # true, false (default)
-
+    tracking_id: G-X5TVX1RNG8
+    anonymize_ip: # true, false (default)
 
 # Site Author
 author:
-  name             : "Lewi Uberg"
-  avatar           : "/assets/images/lewi/lewi-uberg.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I’m a husband, father of three boys, a former design engineer, and a final year data science student."
-  location         : "Arendal, Norway"
-  email            :
+  name: "Lewi Uberg"
+  avatar: "/assets/images/lewi/lewi-uberg.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio: "I’m a husband, father of three boys, a former design engineer, and a final year data science student."
+  location: "Arendal, Norway"
+  email:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -140,7 +139,6 @@ footer:
     - label: "Medium"
       icon: "fab fa-fw fa-medium"
       url: "https://lewiuberg.medium.com"
-
 
 # Reading Files
 include:
@@ -180,14 +178,12 @@ keep_files:
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
-
 # Conversion
 markdown: kramdown
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
-
 
 # Markdown Processing
 kramdown:
@@ -200,19 +196,16 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
-
 # Sass/SCSS
 sass:
   sass_dir: _sass
   style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
-
 
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /_pages/page:num/
 timezone: NO # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
 
 # Plugins (previously gems:)
 plugins:
@@ -229,7 +222,6 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
-
 
 # Archives
 #  Type
@@ -259,14 +251,12 @@ tag_archive:
 #     category: /categories/:name/
 #     tag: /tags/:name/
 
-
 # HTML Compression
 # - https://jch.penibelst.de/
 compress_html:
   clippings: all
   ignore:
     envs: development
-
 
 # Collections
 collections:
@@ -294,7 +284,7 @@ defaults:
       author_profile: true
       # read_time: true
       # words_per_minute: 200
-      
+
   # _posts
   - scope:
       path: ""
@@ -308,7 +298,7 @@ defaults:
       share: true
       related: true
       show_date: true
-      
+
   # _portfolio
   - scope:
       path: ""
@@ -322,7 +312,7 @@ defaults:
       share: true
       related: true
       show_date: true
-      
+
   # _learn
   - scope:
       path: ""
@@ -336,7 +326,7 @@ defaults:
       share: true
       related: true
       show_date: true
-      
+
   # _hobbies
   - scope:
       path: ""
@@ -350,4 +340,3 @@ defaults:
       share: true
       related: true
       show_date: true
-      
