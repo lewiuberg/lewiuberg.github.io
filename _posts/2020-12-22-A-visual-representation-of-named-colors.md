@@ -4,13 +4,13 @@ published: true #! <-- HERE <-- HERE <-- HERE <-- HERE <-- HERE <-- HERE
 show_date: true
 # last_modified_at: 2021-01-01T00:00:00+01:00
 
-title: Exploring colors
+title: A visual representation of named colors
 dark_title: false
 excerpt: >
     Colors as vectors visualized with Matplotlib.
-permalink: /exploring-colors/
+permalink: /A-visual-representation-of-named-color/
 collection: posts
-canonical_url: "https://uberg.me/posts/exploring-colors"
+canonical_url: "https://uberg.me/posts/A-visual-representation-of-named-colors"
 search: true
 
 layout: single # (see _layout folder)
@@ -21,18 +21,18 @@ entries_layout: list # list (default), grid
 # taxonomy: # category/tag name
 
 header:
-  teaser: assets/images/posts/Exploring-colors/1-th.png
+  teaser: assets/images/posts/A-visual-representation-of-named-color/1-th.png
   og_image: /assets/images/favicon/icon96x96.png #  useful for setting OpenGraph images on pages that don’t have a header or overlay image.
-  image: /assets/images/posts/Matplotlib-vs-Plotly/1.png
+  image: /assets/images/posts/A-visual-representation-of-named-color/1.png
   image_description: "Plotly graph"
   # caption: "Photo credit: [**Pixabay**](https://pixabay.com)"
   # overlay_color: "#ffffff" # Solid color
-  overlay_image: /assets/images/posts/Exploring-colors/1.png
+  overlay_image: /assets/images/posts/A-visual-representation-of-named-color/1.png
   overlay_filter: 0.3 # same as adding an opacity of 0.5 to a black background
   # overlay_filter: rgba(255, 0, 0, 0.5)
   actions:
     - label: "Download dataset"
-      url: "/assets/notebooks/Exploring colors.ipynb"
+      url: "/assets/notebooks/A visual representation of named colors.ipynb"
     # - label: "Learn More"
     #   url: "https://pixabay.com"
 
@@ -345,7 +345,7 @@ Now the time to see the actual colors is here.
 plot_colortable(selection, sort_colors=False, emptycols=1);
 ```
 
-![png](/assets/images/posts/Exploring-colors/output_18_0.png)
+![png](/assets/images/posts/A-visual-representation-of-named-color/output_18_0.png)
 
 ### Finding shades of a color
 
@@ -387,7 +387,7 @@ selection = make_selection_dict(color_selection, colors, "hex")  # <-- using hex
 plot_colortable(selection, emptycols=1);
 ```
 
-![png](/assets/images/posts/Exploring-colors/output_22_0.png)
+![png](/assets/images/posts/A-visual-representation-of-named-color/output_22_0.png)
 
 Let's find the 6 closest colors to "green".
 
@@ -397,7 +397,7 @@ selection = make_selection_dict(color_selection, colors, "norm")  # <-- using no
 plot_colortable(selection, emptycols=1);
 ```
 
-![png](/assets/images/posts/Exploring-colors/output_24_0.png)
+![png](/assets/images/posts/A-visual-representation-of-named-color/output_24_0.png)
 
 Let's find the 12 closest colors to "pure blue", by using the RGB values.
 
@@ -407,7 +407,7 @@ selection = make_selection_dict(color_selection, colors, "hex")
 plot_colortable(selection, emptycols=1);
 ```
 
-![png](/assets/images/posts/Exploring-colors/output_26_0.png)
+![png](/assets/images/posts/A-visual-representation-of-named-color/output_26_0.png)
 
 ### Playing with vectors
 
@@ -427,7 +427,7 @@ selection = make_selection_dict(color_selection, colors, "hex")
 plot_colortable(selection, emptycols=1);
 ```
 
-![png](/assets/images/posts/Exploring-colors/output_29_0.png)
+![png](/assets/images/posts/A-visual-representation-of-named-color/output_29_0.png)
 
 #### Add one color to another
 
@@ -443,7 +443,7 @@ selection = make_selection_dict(color_selection, colors, "hex")
 plot_colortable(selection, emptycols=1);
 ```
 
-![png](/assets/images/posts/Exploring-colors/output_31_0.png)
+![png](/assets/images/posts/A-visual-representation-of-named-color/output_31_0.png)
 
 #### Find the average of a list
 
@@ -468,7 +468,7 @@ selection = make_selection_dict(color_selection, colors, "hex")
 plot_colortable(selection, emptycols=1);
 ```
 
-![png](/assets/images/posts/Exploring-colors/output_33_0.png)
+![png](/assets/images/posts/A-visual-representation-of-named-color/output_33_0.png)
 
 #### Finding random colors
 
@@ -480,7 +480,7 @@ selection = make_selection_dict(color_selection, colors, "hex")
 plot_colortable(selection, sort_colors=False, emptycols=1);
 ```
 
-![png](/assets/images/posts/Exploring-colors/output_35_0.png)
+![png](/assets/images/posts/A-visual-representation-of-named-color/output_35_0.png)
 
 #### Every n color in range
 
@@ -490,4 +490,4 @@ selection = make_selection_dict(color_selection, colors, "hex")
 plot_colortable(selection, emptycols=1);
 ```
 
-![png](/assets/images/posts/Exploring-colors/output_37_0.png)
+![png](/assets/images/posts/A-visual-representation-of-named-color/output_37_0.png)
