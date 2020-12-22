@@ -1,7 +1,7 @@
 ---
 published: true
 # last_modified_at: 2020-12-06T15:23:23+01:00
-author: Lewi Lie Uberg
+# author: Lewi Lie Uberg
 title: "Jupyter Dash in Jupyter Lab for macOS"
 excerpt: "How to install Jupyter Dash on macOS"
 header:
