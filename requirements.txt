@@ -1,0 +1,5 @@
+dot2tex
+colormath
+pandas
+graphviz
+termcolor
