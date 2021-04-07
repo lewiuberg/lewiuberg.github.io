@@ -50,18 +50,18 @@ feature_row:
     url: "/learn/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
-  - image_path: /assets/images/brains/600x400/brains_600x400_1.png
+  - image_path: /assets/images/brains/600x400/brains_600x400_23.png
     alt: "medium"
     title: "Medium"
     excerpt: "A collection of Medium articles."
     url: "/medium/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
-  - image_path: /assets/images/brains/600x400/brains_600x400_9.png
-    alt: "hobbies"
-    title: "Hobbies"
-    excerpt: "Hobbies I like to use my spare time on."
-    url: "/hobbies/"
+  - image_path: /assets/images/brains/600x400/brains_600x400_24.png
+    alt: "pypi"
+    title: "PyPi"
+    excerpt: "Packages I have published on Python Package Index."
+    url: "/pypi/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
   
