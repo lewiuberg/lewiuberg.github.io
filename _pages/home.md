@@ -41,13 +41,11 @@ feature_row:
     url: "/portfolio/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
-  - image_path: /assets/images/brains/600x400/brains_600x400_17.png
-    alt: "learn"
-    title: "Learn"
-    excerpt: >
-      Learn different subject related to programming or data science with me.
-      This will be a reference for myself, that I share with you.
-    url: "/learn/"
+  - image_path: /assets/images/brains/600x400/brains_600x400_24.png
+    alt: "pypi"
+    title: "PyPi"
+    excerpt: "Packages I have published on Python Package Index."
+    url: "/pypi/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
   - image_path: /assets/images/brains/600x400/brains_600x400_23.png
@@ -57,13 +55,16 @@ feature_row:
     url: "/medium/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
-  - image_path: /assets/images/brains/600x400/brains_600x400_24.png
-    alt: "pypi"
-    title: "PyPi"
-    excerpt: "Packages I have published on Python Package Index."
-    url: "/pypi/"
+  - image_path: /assets/images/brains/600x400/brains_600x400_17.png
+    alt: "learn"
+    title: "Learn"
+    excerpt: >
+      Learn different subject related to programming or data science with me.
+      This will be a reference for myself, that I share with you.
+    url: "/learn/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
+
   
 ---
 <!-- Global site tag (gtag.js) - Google Analytics -->
