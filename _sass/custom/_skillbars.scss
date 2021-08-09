@@ -141,11 +141,18 @@
 // 95 = Expert
 
 // Python
-.progress-line.pandas span::after{
+.progress-line.pytest span::after{
   content: "Advanced";
 }
-.bar .progress-line.pandas span{
+.bar .progress-line.pytest span{
   width: 80%;
+}
+
+.progress-line.pandas span::after{
+  content: "Competent";
+}
+.bar .progress-line.pandas span{
+  width: 65%;
 }
 
 .progress-line.matplotlib span::after{
@@ -249,6 +256,20 @@
 // 95 = Expert
 
 // web development
+.progress-line.flask span::after{
+  content: "Intermediate";
+}
+.bar .progress-line.flask span{
+  width: 50%;
+}
+
+.progress-line.django span::after{
+  content: "Beginner";
+}
+.bar .progress-line.django span{
+  width: 35%;
+}
+
 .progress-line.jekyll span::after{
   content: "Beginner";
 }

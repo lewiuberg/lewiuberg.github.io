@@ -134,7 +134,7 @@ Assembly and software preparation of notebook computers.
 {: .container}
 <div>
 <b>Degree Name:</b> Bachelor of Applied Science - BASc, Data Science, 3.94/5 (top 10% in programme)<br/>
-<b>Date:</b> 2018 - 2020<br/><br/>
+<b>Date:</b> 2018 - 2021<br/><br/>
 </div>
 
 {: .container--secondary}
