@@ -62,7 +62,7 @@ toc_icon: "file-alt"
 {: .container}
 **Title:** System Developer<br/>
 ***Dates Employed:*** May 2021 – Present<br/>
-***Employment Duration:*** Ongoing<br/>
+<!-- ***Employment Duration:*** Ongoing<br/> -->
 ***Location:*** Grimstad, Norway<br/><br/>
 Anzyz is an Artificial Intelligence company, which uniquely integrates supervised, unsupervised and manual rule based learning through a text analytical algorithm, called Anzyz AI Insight.
 Anzyz AI Insight stems from innovations led by Prof Ole-Christoffer Granmo at the University of Agder. Granmo and Svein Olaf Olsen established Anzyz Technologies as in 2014.
