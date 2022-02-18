@@ -256,6 +256,13 @@
 // 95 = Expert
 
 // web development
+.progress-line.fastapi span::after{
+  content: "Intermediate";
+}
+.bar .progress-line.fastapi span{
+  width: 50%;
+}
+
 .progress-line.flask span::after{
   content: "Intermediate";
 }
