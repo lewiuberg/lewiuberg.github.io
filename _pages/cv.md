@@ -60,7 +60,7 @@ toc_icon: "file-alt"
 ### Puzzel AS
 
 {: .container}
-**Title:** Full Stack Developer<br/>
+**Title:** Full-stack Developer<br/>
 ***Dates Employed:*** Jul 2022 – Present<br/>
 <!-- ***Employment Duration:*** Ongoing<br/> -->
 ***Location:*** Arendal, Norway<br/><br/>

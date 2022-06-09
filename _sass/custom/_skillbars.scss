@@ -94,7 +94,7 @@
 // 35 = Beginner
 // 50 = Intermediate
 // 65 = Competent
-// 80 = Advanced 
+// 80 = Advanced
 // 95 = Expert
 
 // Languages
@@ -105,25 +105,18 @@
   width: 20%;
 }
 
+.progress-line.javascript span::after{
+  content: "Novice";
+}
+.bar .progress-line.javascript span{
+  width: 20%;
+}
+
 .progress-line.python span::after{
   content: "Advanced";
 }
 .bar .progress-line.python span{
   width: 80%;
-}
-
-.progress-line.sql span::after{
-  content: "Intermediate";
-}
-.bar .progress-line.sql span{
-  width: 50%;
-}
-
-.progress-line.nosql span::after{
-  content: "Intermediate";
-}
-.bar .progress-line.nosql span{
-  width: 50%;
 }
 
 .progress-line.julia span::after{
@@ -138,6 +131,20 @@
 }
 .bar .progress-line.r span{
   width: 20%;
+}
+
+.progress-line.sql span::after{
+  content: "Intermediate";
+}
+.bar .progress-line.sql span{
+  width: 50%;
+}
+
+.progress-line.nosql span::after{
+  content: "Intermediate";
+}
+.bar .progress-line.nosql span{
+  width: 50%;
 }
 
 // 20 = Novice
@@ -259,10 +266,24 @@
 // 35 = Beginner
 // 50 = Intermediate
 // 65 = Competent
-// 80 = Advanced 
+// 80 = Advanced
 // 95 = Expert
 
 // web development
+.progress-line.html span::after{
+  content: "Beginner";
+}
+.bar .progress-line.html span{
+  width: 35%;
+}
+
+.progress-line.css span::after{
+  content: "Beginner";
+}
+.bar .progress-line.css span{
+  width: 35%;
+}
+
 .progress-line.fastapi span::after{
   content: "Intermediate";
 }
@@ -291,27 +312,6 @@
   width: 35%;
 }
 
-.progress-line.html span::after{
-  content: "Novice";
-}
-.bar .progress-line.html span{
-  width: 20%;
-}
-
-.progress-line.css span::after{
-  content: "Novice";
-}
-.bar .progress-line.css span{
-  width: 20%;
-}
-
-.progress-line.javascript span::after{
-  content: "Novice";
-}
-.bar .progress-line.javascript span{
-  width: 20%;
-}
-
 .progress-line.angular span::after{
   content: "Novice";
 }
@@ -335,10 +335,10 @@
 
 // Typesetting
 .progress-line.markdown span::after{
-  content: "Advanced";
+  content: "Expert";
 }
 .bar .progress-line.markdown span{
-  width: 80%;
+  width: 95%;
 }
 
 .progress-line.latex span::after{

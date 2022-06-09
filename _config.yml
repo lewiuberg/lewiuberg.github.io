@@ -18,9 +18,9 @@ layout: splash
 locale: "en-US"
 title: "Lewi Uberg"
 title_separator: "-"
-subtitle: Data Scientist # site tagline that appears below site title in masthead
+subtitle: Full-stack Development & Data Science # site tagline that appears below site title in masthead
 name: &name "Lewi Uberg" # Used to assign a site author.
-description: "Lewi Uberg Data Scientist"
+description: "Lewi Uberg Full-stack Development & Data Science" # Used to set the site meta description.
 url: https://uberg.me # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl: # the subpath of your site, e.g. "/blog"
 repository: lewiuberg/lewiuberg.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -89,6 +89,7 @@ social:
     - https://www.linkedin.com/in/lewiuberg/
     - https://www.kaggle.com/lewiuberg
     - https://github.com/lewiuberg
+    - https://stackoverflow.com/users/10685529/lewi-uberg
 
 # Analytics
 analytics:
@@ -123,6 +124,9 @@ author:
     - label: "Medium"
       icon: "fab fa-fw fa-medium"
       url: "https://lewiuberg.medium.com"
+    - label: "Stack Overflow"
+      icon: "fab fa-fw fa-stack-overflow"
+      url: "https://stackoverflow.com/users/10685529/lewi-uberg"
 
 # Site Footer
 footer:
@@ -139,6 +143,9 @@ footer:
     - label: "Medium"
       icon: "fab fa-fw fa-medium"
       url: "https://lewiuberg.medium.com"
+    - label: "Stack Overflow"
+      icon: "fab fa-fw fa-stack-overflow"
+      url: "https://stackoverflow.com/users/10685529/lewi-uberg"
 
 # Reading Files
 include:

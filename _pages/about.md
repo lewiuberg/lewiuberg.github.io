@@ -27,8 +27,8 @@ me = Person(
     name="Lewi",
     surname="Uberg",
     birthdate=datetime.date(1984, 5, 11),
-    education="Final year student"
-              "Bachelor of Applied Science"
+    occupation="Full-stack developer",
+    education="Bachelor of Applied Science"
               "BASc, Data Science",
     address="Smedplassveien 18 B",
     zip_code="4848",
@@ -42,7 +42,7 @@ me = Person(
 <div>
 Hello!
 
-I will write a little bio here.
+I will write a little bio here (been saying that for years now), so don't hold your breath.
 </div>
 
 ## Contact me
