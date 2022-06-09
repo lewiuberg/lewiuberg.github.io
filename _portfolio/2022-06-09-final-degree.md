@@ -16,6 +16,7 @@ layout: final-degree
 # entries_layout: grid # list (default), grid
 # taxonomy: # category/tag name
 header:
+  image: assets/images/portfolio/final_degree/final_degree_01-th.png
   teaser: assets/images/portfolio/final_degree/final_degree_01-th.png
 # sidebar:
 #   - title: "Role"
