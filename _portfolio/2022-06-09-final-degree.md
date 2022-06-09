@@ -7,7 +7,7 @@ excerpt: >
     "Brain tumor classification of MRI images using Convolutional Neural Networks"
 permalink: /final-degree/
 # collection: pypi
-canonical_url: "https://uberg.me/final-degree/"
+canonical_url: "https://uberg.me/portfolio/final-degree/"
 search: true
 layout: final-degree
 # classes:
