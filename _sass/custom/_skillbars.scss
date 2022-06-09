@@ -98,6 +98,13 @@
 // 95 = Expert
 
 // Languages
+.progress-line.csharp span::after{
+  content: "Novice";
+}
+.bar .progress-line.csharp span{
+  width: 20%;
+}
+
 .progress-line.python span::after{
   content: "Advanced";
 }
@@ -194,7 +201,7 @@
   content: "Beginner";
 }
 .bar .progress-line.keras span{
-  width: 25%;
+  width: 35%;
 }
 
 // 20 = Novice
@@ -302,6 +309,20 @@
   content: "Novice";
 }
 .bar .progress-line.javascript span{
+  width: 20%;
+}
+
+.progress-line.angular span::after{
+  content: "Novice";
+}
+.bar .progress-line.angular span{
+  width: 20%;
+}
+
+.progress-line.vue span::after{
+  content: "Novice";
+}
+.bar .progress-line.vue span{
   width: 20%;
 }
 

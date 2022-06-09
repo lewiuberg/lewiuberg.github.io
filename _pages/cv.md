@@ -57,12 +57,20 @@ toc_icon: "file-alt"
 
 ## Experience
 
+### Puzzel AS
+
+{: .container}
+**Title:** Full Stack Developer<br/>
+***Dates Employed:*** Jul 2022 – Present<br/>
+<!-- ***Employment Duration:*** Ongoing<br/> -->
+***Location:*** Arendal, Norway<br/><br/>
+Puzzel is the leading European provider of cloud contact center solutions. Every day, more than 1,100 organizations across 40 countries use Puzzel's software to deliver smart customer experiences, blending the powers of people and technology to serve customers efficiently, effectively, and with empathy. The Puzzel Platform enables organizations to create rich journeys for their customers, with a mix of live and self-service experiences that give people the freedom to choose when, where and how they get help. Artificial intelligence is harnessed at every touchpoint to automate tasks, provide insight, and personalized service and support. Puzzel also includes a suite of productivity and planning tools to empower managers and agents to reach their goals and continuously improve performance. With 20+ years of experience in the industry, Puzzel is the CCaaS provider organizations trust when every moment matters.
+
 ### Anzyz Technologies AS
 
 {: .container}
 **Title:** System Developer<br/>
-***Dates Employed:*** May 2021 – Present<br/>
-<!-- ***Employment Duration:*** Ongoing<br/> -->
+***Dates Employed:*** May 2021 – Jun 2022 <br/>
 ***Location:*** Grimstad, Norway<br/><br/>
 Anzyz is an Artificial Intelligence company, which uniquely integrates supervised, unsupervised and manual rule based learning through a text analytical algorithm, called Anzyz AI Insight.
 Anzyz AI Insight stems from innovations led by Prof Ole-Christoffer Granmo at the University of Agder. Granmo and Svein Olaf Olsen established Anzyz Technologies as in 2014.
