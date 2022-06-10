@@ -42,7 +42,7 @@ me = Person(
 <div>
 Hello!
 
-I will write a little bio here (been saying that for years now), so don't hold your breath.
+I will write a little bio here (been saying that for years now, so don't hold your breath).
 </div>
 
 ## Contact me
