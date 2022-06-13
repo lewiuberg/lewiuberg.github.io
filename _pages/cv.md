@@ -71,9 +71,19 @@ Puzzel is the leading European provider of cloud contact center solutions. Every
 {: .container}
 **Title:** System Developer<br/>
 ***Dates Employed:*** May 2021 – Jun 2022 <br/>
+***Employment Duration:*** 1 yr 2 mos<br/>
 ***Location:*** Grimstad, Norway<br/><br/>
 Anzyz is an Artificial Intelligence company, which uniquely integrates supervised, unsupervised and manual rule based learning through a text analytical algorithm, called Anzyz AI Insight.
 Anzyz AI Insight stems from innovations led by Prof Ole-Christoffer Granmo at the University of Agder. Granmo and Svein Olaf Olsen established Anzyz Technologies as in 2014.
+
+### Towards Data Science
+
+{: .container}
+**Title:** Technical Writer<br/>
+***Dates Employed:*** Dec 2020 – Nov 2021<br/>
+***Employment Duration:*** 1 yr <br/>
+***Location:*** Remote<br/><br/>
+Towards Data Science is a medium publication directed towards data science and data visualization. I was a freelance writer for the publication, and wrote some longer articles for them.
 
 ### Cefront Technology AS
 
@@ -123,7 +133,7 @@ Making tutorials/lectures, tutoring and grading.
 {: .container}
 **Title:** Electricians apprentice<br/>
 ***Dates Employed:*** Mar 2006 - Sep 2008<br/>
-***Employment Duration:*** 2 yr 7 mos<br/>
+***Employment Duration:*** 2 yrs 7 mos<br/>
 ***Location:*** Arendal, Norway<br/>
 
 ### Hattelco AS
